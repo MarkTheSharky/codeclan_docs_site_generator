@@ -1,5 +1,6 @@
 node_modules
 .temp
 .cache
-codeclan
 .vscode
+/docs/codeclan/
+!/docs/codeclan/.gitkeep
