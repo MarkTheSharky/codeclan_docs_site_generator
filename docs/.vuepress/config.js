@@ -1,3 +1,7 @@
+const FileTree = require('./getSidebar.js')
+
+const fileTree = new FileTree()
+fileTree.build('docs/codeclan')
 
 module.exports = {
     // site config
@@ -21,59 +25,59 @@ module.exports = {
       },
     ],
     sidebarDepth: 0,
-    sidebar: {
-      '/codeclan/week_01/': [
-        '/codeclan/week_01/README.md',
-        {
-          text: 'Week 1',
-          children: [
-            {
-              text: 'Day 1',
-              children: [
-                {
-                  text: 'Command Line Basics',
-                  children: [
-                    '/codeclan/week_01/day_1/command_line_basics/command_line_basics.md',
-                    '/codeclan/week_01/day_1/command_line_basics/terminal_cheatsheet.md'
-                  ],
-                },
-                '/codeclan/week_01/day_1/homework.md',
-                '/codeclan/week_01/day_1/what_is_programming.md'
-              ]
-            },
-            {
-              text: 'Day 2',
-              children: [
-                '/codeclan/week_01/day_1/homework.md',
-                '/codeclan/week_01/day_1/what_is_programming.md'
-              ]
-            },
-            {
-              text: 'Day 3',
-              children: [
-                '/codeclan/week_01/day_1/homework.md',
-                '/codeclan/week_01/day_1/what_is_programming.md'
-              ]
-            },
-            {
-              text: 'Day 4',
-              children: [
-                '/codeclan/week_01/day_1/homework.md',
-                '/codeclan/week_01/day_1/what_is_programming.md'
-              ]
-            },
-            {
-              text: 'Day 5',
-              children: [
-                '/codeclan/week_01/day_1/homework.md',
-                '/codeclan/week_01/day_1/what_is_programming.md'
-              ]
-            },
-            '/codeclan/week_01/weekend_homework.md'
-          ]
-        },
-      ]
-    },
+    // sidebar: {
+    //   '/codeclan/week_01/': [
+    //     {
+    //       text: 'Week 1',
+    //       children: [
+    //         {
+    //           text: 'Day 1',
+    //           children: [
+    //             {
+    //               text: 'Command Line Basics',
+    //               children: [
+    //                 '/codeclan/week_01/day_1/command_line_basics/command_line_basics.md',
+    //                 '/codeclan/week_01/day_1/command_line_basics/terminal_cheatsheet.md'
+    //               ],
+    //             },
+    //             '/codeclan/week_01/day_1/homework.md',
+    //             '/codeclan/week_01/day_1/what_is_programming.md'
+    //           ]
+    //         },
+    //         {
+    //           text: 'Day 2',
+    //           children: [
+    //             '/codeclan/week_01/day_1/homework.md',
+    //             '/codeclan/week_01/day_1/what_is_programming.md'
+    //           ]
+    //         },
+    //         {
+    //           text: 'Day 3',
+    //           children: [
+    //             '/codeclan/week_01/day_1/homework.md',
+    //             '/codeclan/week_01/day_1/what_is_programming.md'
+    //           ]
+    //         },
+    //         {
+    //           text: 'Day 4',
+    //           children: [
+    //             '/codeclan/week_01/day_1/homework.md',
+    //             '/codeclan/week_01/day_1/what_is_programming.md'
+    //           ]
+    //         },
+    //         {
+    //           text: 'Day 5',
+    //           children: [
+    //             '/codeclan/week_01/day_1/homework.md',
+    //             '/codeclan/week_01/day_1/what_is_programming.md'
+    //           ]
+    //         },
+    //         '/codeclan/week_01/weekend_homework.md'
+    //       ]
+    //     },
+    //   ]
+    // },
+    sidebar: fileTree['children'],
     lastUpdated: false,
     contributors: false,
   },
@@ -84,3 +88,5 @@ module.exports = {
     ],
   ],
 }
+
+console.dir(fileTree['children'], { depth : null });
