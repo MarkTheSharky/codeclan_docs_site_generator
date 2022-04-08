@@ -1,7 +1,8 @@
-const FileTree = require('./getSidebar.js')
+const Sidebar = require('./getSidebar.js')
+const Navbar = require('./getNavbar.js')
 
-const fileTree = new FileTree()
-fileTree.build('docs/codeclan')
+const sidebar = new Sidebar()
+sidebar.build('docs/codeclan')
 
 module.exports = {
     // site config
@@ -77,7 +78,7 @@ module.exports = {
     //     },
     //   ]
     // },
-    sidebar: fileTree['children'],
+    sidebar: sidebar['children'],
     lastUpdated: false,
     contributors: false,
   },
@@ -89,4 +90,5 @@ module.exports = {
   ],
 }
 
-console.dir(fileTree['children'], { depth : 2 });
+// console.dir(sidebar['children'], { depth : 2 });
+// console.dir(navbar['children'], { depth : null });
