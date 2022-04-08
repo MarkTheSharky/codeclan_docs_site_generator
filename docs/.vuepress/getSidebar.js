@@ -1,5 +1,5 @@
 const fs = require("fs");
-// const nodePath = require("path");
+const formatFolderName = require('./utilities/formatFolderName')
 
 module.exports = class Sidebar {
   constructor() {
