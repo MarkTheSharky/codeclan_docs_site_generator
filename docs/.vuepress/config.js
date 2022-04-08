@@ -1,5 +1,5 @@
 const Sidebar = require('./getSidebar.js')
-const Navbar = require('./getNavbar.js')
+const makeNavbar = require('./getNavbar.js')
 
 const sidebar = new Sidebar()
 sidebar.build('docs/codeclan')
@@ -16,13 +16,8 @@ module.exports = {
     logoDark: 'codeclan_logo_darktheme.png',
     navbar: [
       {
-        text: 'Lessons',
-        children: [
-          {
-            text: 'Week 1',
-            link: '/codeclan/week_01/'
-          }
-        ]
+        text: 'Class Notes',
+        children: makeNavbar('docs/codeclan')
       },
     ],
     sidebarDepth: 0,
@@ -92,3 +87,5 @@ module.exports = {
 
 // console.dir(sidebar['children'], { depth : 2 });
 // console.dir(navbar['children'], { depth : null });
+
+// console.log(makeNavbar('docs/codeclan'));
