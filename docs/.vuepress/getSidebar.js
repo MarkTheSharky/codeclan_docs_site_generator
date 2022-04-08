@@ -28,14 +28,13 @@ module.exports = class FileTree {
 
       const fileInfo = {
         text: FileTree.formatFolderName(file),
-        collapsible: false,
+        collapsible: true,
         children: []
       }
 
       
       // Handle if directory
       if (stat.isDirectory()) {
-        fileInfo.collapsible = true
         fileInfo.children = FileTree.readDir(`${path}/${file}`)
         fileArray.push(fileInfo)
       }

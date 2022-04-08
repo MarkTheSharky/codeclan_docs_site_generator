@@ -89,4 +89,4 @@ module.exports = {
   ],
 }
 
-console.dir(fileTree['children'], { depth : null });
+console.dir(fileTree['children'], { depth : 2 });
