@@ -9,17 +9,6 @@ module.exports = class Sidebar {
     this.children = Sidebar.readDir(path);
   }
 
-  static formatFolderName(folder) {
-    let title = folder
-    if (folder[folder.length-2] == 0) {
-      title = folder.replace(/_0/g, ' ')
-    } else {
-      title = folder.replace(/_/g, ' ')
-    }
-    title = title.replace(/(^|\s)[a-z]/g,function(f){return f.toUpperCase();});
-    return `${title} 📁`
-  }
-
   static readDir(path) {
     const fileArray = [];
 
@@ -32,7 +21,7 @@ module.exports = class Sidebar {
       }
 
       const fileInfo = {
-        text: Sidebar.formatFolderName(file),
+        text: formatFolderName(file),
         collapsible: true,
         children: []
       }
