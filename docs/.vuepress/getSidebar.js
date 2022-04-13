@@ -1,5 +1,6 @@
 const fs = require("fs");
 const formatFolderName = require('./utilities/formatFolderName')
+const unwantedFolderNames = require('./utilities/unwantedFolderNames')
 
 module.exports = class Sidebar {
   constructor() {
@@ -16,7 +17,7 @@ module.exports = class Sidebar {
 
       const stat = fs.statSync(`${path}/${file}`)
 
-      if (file === 'images' || !stat.isDirectory() && !file.endsWith('.md')) {
+      if (unwantedFolderNames(file, path, stat)) {
         return
       }
 
@@ -27,6 +28,7 @@ module.exports = class Sidebar {
       }
 
       
+
       // Handle if directory
       if (stat.isDirectory()) {
         fileInfo.children = Sidebar.readDir(`${path}/${file}`)
