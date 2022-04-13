@@ -47,27 +47,6 @@ module.exports = {
     //             '/codeclan/week_01/day_1/what_is_programming.md'
     //           ]
     //         },
-    //         {
-    //           text: 'Day 3',
-    //           children: [
-    //             '/codeclan/week_01/day_1/homework.md',
-    //             '/codeclan/week_01/day_1/what_is_programming.md'
-    //           ]
-    //         },
-    //         {
-    //           text: 'Day 4',
-    //           children: [
-    //             '/codeclan/week_01/day_1/homework.md',
-    //             '/codeclan/week_01/day_1/what_is_programming.md'
-    //           ]
-    //         },
-    //         {
-    //           text: 'Day 5',
-    //           children: [
-    //             '/codeclan/week_01/day_1/homework.md',
-    //             '/codeclan/week_01/day_1/what_is_programming.md'
-    //           ]
-    //         },
     //         '/codeclan/week_01/weekend_homework.md'
     //       ]
     //     },
@@ -87,5 +66,4 @@ module.exports = {
 
 // console.dir(sidebar['children'], { depth : 2 });
 // console.dir(navbar['children'], { depth : null });
-
 // console.log(makeNavbar('docs/codeclan'));
