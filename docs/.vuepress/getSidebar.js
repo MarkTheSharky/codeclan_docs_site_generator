@@ -10,7 +10,29 @@ module.exports = class Sidebar {
     this.children = Sidebar.readDir(path);
   }
 
+
+  static readRoot(path) {
+
+    let rootFolders = {}
+
+    fs.readdirSync(path).forEach(folder => {
+
+      const stat = fs.statSync(`${path}/${folder}`)
+
+      if (stat.isDirectory()) {
+        rootFolders[`/${folder}/`] = []
+      }
+
+    })
+
+    console.log(rootFolders);
+    return rootFolders
+
+  }
+
+
   static readDir(path) {
+
     const fileArray = [];
 
     fs.readdirSync(path).forEach(file => {
