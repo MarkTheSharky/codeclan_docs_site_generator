@@ -1,8 +1,8 @@
-const Sidebar = require('./getSidebar.js')
+const buildSidebar = require('./getSidebar.js')
 const makeNavbar = require('./getNavbar.js')
 
-const sidebar = new Sidebar()
-sidebar.build('docs/codeclan')
+// const sidebar = new Sidebar()
+// sidebar.build('docs/codeclan')
 
 module.exports = {
     // site config
@@ -52,7 +52,8 @@ module.exports = {
     //     },
     //   ]
     // },
-    sidebar: sidebar['children'],
+    // sidebar: sidebar['children'],
+    sidebar: buildSidebar('docs/codeclan'),
     lastUpdated: false,
     contributors: false,
   },

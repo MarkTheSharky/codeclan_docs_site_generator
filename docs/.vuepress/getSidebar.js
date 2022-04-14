@@ -2,16 +2,8 @@ const fs = require("fs");
 const formatFolderName = require('./utilities/formatFolderName')
 const unwantedFolderNames = require('./utilities/unwantedFolderNames')
 
-module.exports = class Sidebar {
-  constructor() {
-  }
 
-  build = (path) => {
-    this.children = Sidebar.readDir(path);
-  }
-
-
-  static readRoot(path) {
+const readRoot = (path) => {
 
     let rootFolders = {}
 
@@ -25,13 +17,18 @@ module.exports = class Sidebar {
 
     })
 
-    console.log(rootFolders);
+  // console.log(rootFolders);
     return rootFolders
 
-  }
+}
 
 
-  static readDir(path) {
+const readDir = (path, rootFolders) => {
+
+    let root;
+    if (rootFolders) {
+      root = rootFolders
+    }
 
     const fileArray = [];
 
@@ -53,7 +50,7 @@ module.exports = class Sidebar {
 
       // Handle if directory
       if (stat.isDirectory()) {
-        fileInfo.children = Sidebar.readDir(`${path}/${file}`)
+        fileInfo.children = readDir(`${path}/${file}`)
         fileArray.push(fileInfo)
       }
 
@@ -63,7 +60,14 @@ module.exports = class Sidebar {
         fileArray.push(`${newPath}/${file}`)
       }
     })
-
+    
+    console.log(fileArray);
     return fileArray;
-  }
+}
+
+
+
+module.exports = function buildSidebar(path) {
+  const rootFolders = readRoot(path)
+  return readDir(path, rootFolders);
 }
