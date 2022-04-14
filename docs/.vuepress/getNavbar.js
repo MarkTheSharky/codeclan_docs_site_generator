@@ -14,11 +14,16 @@ module.exports = function makeNavbar(path) {
       }
       
       // Handle if directory
-      if (stat.isDirectory()) {
+      if (path === 'docs/codeclan' && stat.isDirectory()) {
         const newPath = path.substring(path.indexOf('/'))
         fileInfo.link = `${newPath}/${file}`
         fileArray.push(fileInfo)
+      } else if (path === 'docs/cheatsheets') {
+        const newPath = path.substring(path.indexOf('/'))
+        fileInfo.link = `${newPath}/${file}/${file}_cheatsheet.md`
+        fileArray.push(fileInfo)
       }
+
     })
 
     return fileArray;

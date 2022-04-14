@@ -16,6 +16,10 @@ module.exports = {
     logoDark: 'codeclan_logo_darktheme.png',
     navbar: [
       {
+        text: 'Cheatsheets',
+        children: makeNavbar('docs/cheatsheets')
+      },
+      {
         text: 'Class Notes',
         children: makeNavbar('docs/codeclan')
       },
