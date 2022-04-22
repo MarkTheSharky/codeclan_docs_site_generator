@@ -5,3 +5,4 @@ node_modules
 app/docs/codeclan/
 !/app/docs/codeclan/.gitkeep
 classnotes/*
+!classnotes/.gitkeep
