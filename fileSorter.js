@@ -45,9 +45,10 @@ function renameRootFolder(path) { // This needs to be promised(??) based incase 
 }
 
 
-const fileList = {};
+const fileList = {} // Make function makeFileObject below promise(??) based fileList can go inside function?
 
-const makeFileObject = (path) => {
+function makeFileObject(path) {
+
 
     fs.readdirSync(path).forEach(file => {
 
@@ -60,15 +61,17 @@ const makeFileObject = (path) => {
 
         // Handle if a file
         if (stat.isFile() && file.endsWith('.md') && file.toLowerCase() !== 'readme.md') {
+
             if (fileList[`${path}/${file}`]) {
                 console.log('Duplicate file name warning: ', file)
             }
 
-            const symlink = `${path}/${file}`.substring(0, `${path}/${file}`.indexOf('/', 17)) + `/${file}`
+            const symlink = `${path}/${file}`.substring(0, `${path}/${file}`.indexOf('/', 19)) + `/${file}`
+            
             fileList[`${path}/${file}`] = {
                 'filename': file,
                 'fileLink': `${path}/${file}`,
-                'symlink': symlink,
+                'symlink': '/app/docs/codeclan' + symlink.slice(10),
                 'start_code': '',
                 'end_code': '',
                 'youtube_link': ''
@@ -76,15 +79,18 @@ const makeFileObject = (path) => {
         }
     })
 
-    fs.writeFile('markdownFileList.json', JSON.stringify(fileList), (err) => {
+
+
+    fs.writeFileSync('markdownFileList.json', JSON.stringify(fileList), (err) => {
         if (err) {
             console.error(err.message);return;
         }
+        console.log('Files written to file succesfully');
     })
 
 }
 
 
 
-renameRootFolder('classnotes')
-makeFileObject('codeclan')
+// renameRootFolder('classnotes')
+makeFileObject('classnotes')
