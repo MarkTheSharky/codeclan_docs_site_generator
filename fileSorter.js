@@ -71,7 +71,7 @@ function makeFileObject(path) {
             fileList[`${path}/${file}`] = {
                 'filename': file,
                 'fileLink': `${path}/${file}`,
-                'symlink': '/app/docs/codeclan' + symlink.slice(10),
+                'symlink': 'app/docs/codeclan' + symlink.slice(10),
                 'start_code': '',
                 'end_code': '',
                 'youtube_link': ''

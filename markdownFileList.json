@@ -2,7 +2,7 @@
     "classnotes/heroku_guides/python.md": {
         "filename": "python.md",
         "fileLink": "classnotes/heroku_guides/python.md",
-        "symlink": "/app/docs/codeclan/heroku_guides/python.md",
+        "symlink": "app/docs/codeclan/heroku_guides/python.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -10,7 +10,7 @@
     "classnotes/week_01/day_1/command_line_basics/command_line_basics.md": {
         "filename": "command_line_basics.md",
         "fileLink": "classnotes/week_01/day_1/command_line_basics/command_line_basics.md",
-        "symlink": "/app/docs/codeclan/week_01/day_1/command_line_basics.md",
+        "symlink": "app/docs/codeclan/week_01/day_1/command_line_basics.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -18,7 +18,7 @@
     "classnotes/week_01/day_1/command_line_basics/terminal_cheatsheet.md": {
         "filename": "terminal_cheatsheet.md",
         "fileLink": "classnotes/week_01/day_1/command_line_basics/terminal_cheatsheet.md",
-        "symlink": "/app/docs/codeclan/week_01/day_1/terminal_cheatsheet.md",
+        "symlink": "app/docs/codeclan/week_01/day_1/terminal_cheatsheet.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -26,7 +26,7 @@
     "classnotes/week_01/day_1/git_and_github_basics/git_and_github.md": {
         "filename": "git_and_github.md",
         "fileLink": "classnotes/week_01/day_1/git_and_github_basics/git_and_github.md",
-        "symlink": "/app/docs/codeclan/week_01/day_1/git_and_github.md",
+        "symlink": "app/docs/codeclan/week_01/day_1/git_and_github.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -34,7 +34,7 @@
     "classnotes/week_01/day_1/homework.md": {
         "filename": "homework.md",
         "fileLink": "classnotes/week_01/day_1/homework.md",
-        "symlink": "/app/docs/codeclan/week_01/day_1/homework.md",
+        "symlink": "app/docs/codeclan/week_01/day_1/homework.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -42,7 +42,7 @@
     "classnotes/week_01/day_1/what_is_programming.md": {
         "filename": "what_is_programming.md",
         "fileLink": "classnotes/week_01/day_1/what_is_programming.md",
-        "symlink": "/app/docs/codeclan/week_01/day_1/what_is_programming.md",
+        "symlink": "app/docs/codeclan/week_01/day_1/what_is_programming.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -50,7 +50,7 @@
     "classnotes/week_01/day_2/conditionals/conditionals.md": {
         "filename": "conditionals.md",
         "fileLink": "classnotes/week_01/day_2/conditionals/conditionals.md",
-        "symlink": "/app/docs/codeclan/week_01/day_2/conditionals.md",
+        "symlink": "app/docs/codeclan/week_01/day_2/conditionals.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -58,7 +58,7 @@
     "classnotes/week_01/day_2/dictionaries/dictionaries.md": {
         "filename": "dictionaries.md",
         "fileLink": "classnotes/week_01/day_2/dictionaries/dictionaries.md",
-        "symlink": "/app/docs/codeclan/week_01/day_2/dictionaries.md",
+        "symlink": "app/docs/codeclan/week_01/day_2/dictionaries.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -66,7 +66,7 @@
     "classnotes/week_01/day_2/homework/functions.md": {
         "filename": "functions.md",
         "fileLink": "classnotes/week_01/day_2/homework/functions.md",
-        "symlink": "/app/docs/codeclan/week_01/day_2/functions.md",
+        "symlink": "app/docs/codeclan/week_01/day_2/functions.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -74,7 +74,7 @@
     "classnotes/week_01/day_2/lists/lists.md": {
         "filename": "lists.md",
         "fileLink": "classnotes/week_01/day_2/lists/lists.md",
-        "symlink": "/app/docs/codeclan/week_01/day_2/lists.md",
+        "symlink": "app/docs/codeclan/week_01/day_2/lists.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -82,7 +82,7 @@
     "classnotes/week_01/day_2/loops/loops.md": {
         "filename": "loops.md",
         "fileLink": "classnotes/week_01/day_2/loops/loops.md",
-        "symlink": "/app/docs/codeclan/week_01/day_2/loops.md",
+        "symlink": "app/docs/codeclan/week_01/day_2/loops.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -90,7 +90,7 @@
     "classnotes/week_01/day_2/tuples/tuples.md": {
         "filename": "tuples.md",
         "fileLink": "classnotes/week_01/day_2/tuples/tuples.md",
-        "symlink": "/app/docs/codeclan/week_01/day_2/tuples.md",
+        "symlink": "app/docs/codeclan/week_01/day_2/tuples.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -98,7 +98,7 @@
     "classnotes/week_01/day_3/functions_lab_1/functions_lab1.md": {
         "filename": "functions_lab1.md",
         "fileLink": "classnotes/week_01/day_3/functions_lab_1/functions_lab1.md",
-        "symlink": "/app/docs/codeclan/week_01/day_3/functions_lab1.md",
+        "symlink": "app/docs/codeclan/week_01/day_3/functions_lab1.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -106,7 +106,7 @@
     "classnotes/week_01/day_3/functions_lab_2/functions_lab_2.md": {
         "filename": "functions_lab_2.md",
         "fileLink": "classnotes/week_01/day_3/functions_lab_2/functions_lab_2.md",
-        "symlink": "/app/docs/codeclan/week_01/day_3/functions_lab_2.md",
+        "symlink": "app/docs/codeclan/week_01/day_3/functions_lab_2.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -114,7 +114,7 @@
     "classnotes/week_01/day_3/homework/debugging.md": {
         "filename": "debugging.md",
         "fileLink": "classnotes/week_01/day_3/homework/debugging.md",
-        "symlink": "/app/docs/codeclan/week_01/day_3/debugging.md",
+        "symlink": "app/docs/codeclan/week_01/day_3/debugging.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -122,7 +122,7 @@
     "classnotes/week_01/day_3/pair_programming.md": {
         "filename": "pair_programming.md",
         "fileLink": "classnotes/week_01/day_3/pair_programming.md",
-        "symlink": "/app/docs/codeclan/week_01/day_3/pair_programming.md",
+        "symlink": "app/docs/codeclan/week_01/day_3/pair_programming.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -130,7 +130,7 @@
     "classnotes/week_01/day_3/using_loops_to_search_lists/using_loops_to_search_lists.md": {
         "filename": "using_loops_to_search_lists.md",
         "fileLink": "classnotes/week_01/day_3/using_loops_to_search_lists/using_loops_to_search_lists.md",
-        "symlink": "/app/docs/codeclan/week_01/day_3/using_loops_to_search_lists.md",
+        "symlink": "app/docs/codeclan/week_01/day_3/using_loops_to_search_lists.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -138,7 +138,7 @@
     "classnotes/week_01/day_4/debugging/pdb.md": {
         "filename": "pdb.md",
         "fileLink": "classnotes/week_01/day_4/debugging/pdb.md",
-        "symlink": "/app/docs/codeclan/week_01/day_4/pdb.md",
+        "symlink": "app/docs/codeclan/week_01/day_4/pdb.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -146,7 +146,7 @@
     "classnotes/week_01/day_4/modules_packages/modules_packages.md": {
         "filename": "modules_packages.md",
         "fileLink": "classnotes/week_01/day_4/modules_packages/modules_packages.md",
-        "symlink": "/app/docs/codeclan/week_01/day_4/modules_packages.md",
+        "symlink": "app/docs/codeclan/week_01/day_4/modules_packages.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -154,7 +154,7 @@
     "classnotes/week_01/day_4/modules_packages_lab/modules_packages_lab.md": {
         "filename": "modules_packages_lab.md",
         "fileLink": "classnotes/week_01/day_4/modules_packages_lab/modules_packages_lab.md",
-        "symlink": "/app/docs/codeclan/week_01/day_4/modules_packages_lab.md",
+        "symlink": "app/docs/codeclan/week_01/day_4/modules_packages_lab.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -162,7 +162,7 @@
     "classnotes/week_01/day_4/vscode_effective_text_editing.md": {
         "filename": "vscode_effective_text_editing.md",
         "fileLink": "classnotes/week_01/day_4/vscode_effective_text_editing.md",
-        "symlink": "/app/docs/codeclan/week_01/day_4/vscode_effective_text_editing.md",
+        "symlink": "app/docs/codeclan/week_01/day_4/vscode_effective_text_editing.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -170,7 +170,7 @@
     "classnotes/week_01/day_5/weekend_homework/homework_brief.md": {
         "filename": "homework_brief.md",
         "fileLink": "classnotes/week_01/day_5/weekend_homework/homework_brief.md",
-        "symlink": "/app/docs/codeclan/week_01/day_5/homework_brief.md",
+        "symlink": "app/docs/codeclan/week_01/day_5/homework_brief.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -178,7 +178,7 @@
     "classnotes/week_02/day_1/classes_intro/classes_intro.md": {
         "filename": "classes_intro.md",
         "fileLink": "classnotes/week_02/day_1/classes_intro/classes_intro.md",
-        "symlink": "/app/docs/codeclan/week_02/day_1/classes_intro.md",
+        "symlink": "app/docs/codeclan/week_02/day_1/classes_intro.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -186,7 +186,7 @@
     "classnotes/week_02/day_1/diagrams/intro_to_diagrams.md": {
         "filename": "intro_to_diagrams.md",
         "fileLink": "classnotes/week_02/day_1/diagrams/intro_to_diagrams.md",
-        "symlink": "/app/docs/codeclan/week_02/day_1/intro_to_diagrams.md",
+        "symlink": "app/docs/codeclan/week_02/day_1/intro_to_diagrams.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -194,7 +194,7 @@
     "classnotes/week_02/day_1/homework/multiple_classes.md": {
         "filename": "multiple_classes.md",
         "fileLink": "classnotes/week_02/day_1/homework/multiple_classes.md",
-        "symlink": "/app/docs/codeclan/week_02/day_1/multiple_classes.md",
+        "symlink": "app/docs/codeclan/week_02/day_1/multiple_classes.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -202,7 +202,7 @@
     "classnotes/week_02/day_1/single_class_lab/single_class_lab.md": {
         "filename": "single_class_lab.md",
         "fileLink": "classnotes/week_02/day_1/single_class_lab/single_class_lab.md",
-        "symlink": "/app/docs/codeclan/week_02/day_1/single_class_lab.md",
+        "symlink": "app/docs/codeclan/week_02/day_1/single_class_lab.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -210,7 +210,7 @@
     "classnotes/week_02/day_2/homework_testing/testing.md": {
         "filename": "testing.md",
         "fileLink": "classnotes/week_02/day_2/homework_testing/testing.md",
-        "symlink": "/app/docs/codeclan/week_02/day_2/testing.md",
+        "symlink": "app/docs/codeclan/week_02/day_2/testing.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -218,7 +218,7 @@
     "classnotes/week_02/day_2/multiple_classes/multiple_classes.md": {
         "filename": "multiple_classes.md",
         "fileLink": "classnotes/week_02/day_2/multiple_classes/multiple_classes.md",
-        "symlink": "/app/docs/codeclan/week_02/day_2/multiple_classes.md",
+        "symlink": "app/docs/codeclan/week_02/day_2/multiple_classes.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -226,7 +226,7 @@
     "classnotes/week_02/day_2/multiple_classes_lab/bus_stop_lab.md": {
         "filename": "bus_stop_lab.md",
         "fileLink": "classnotes/week_02/day_2/multiple_classes_lab/bus_stop_lab.md",
-        "symlink": "/app/docs/codeclan/week_02/day_2/bus_stop_lab.md",
+        "symlink": "app/docs/codeclan/week_02/day_2/bus_stop_lab.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -234,7 +234,7 @@
     "classnotes/week_02/day_3/homework_tdd/test_driven_development.md": {
         "filename": "test_driven_development.md",
         "fileLink": "classnotes/week_02/day_3/homework_tdd/test_driven_development.md",
-        "symlink": "/app/docs/codeclan/week_02/day_3/test_driven_development.md",
+        "symlink": "app/docs/codeclan/week_02/day_3/test_driven_development.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -242,7 +242,7 @@
     "classnotes/week_02/day_3/testing_lab/testing_lab.md": {
         "filename": "testing_lab.md",
         "fileLink": "classnotes/week_02/day_3/testing_lab/testing_lab.md",
-        "symlink": "/app/docs/codeclan/week_02/day_3/testing_lab.md",
+        "symlink": "app/docs/codeclan/week_02/day_3/testing_lab.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -250,7 +250,7 @@
     "classnotes/week_02/day_4/composition/composition.md": {
         "filename": "composition.md",
         "fileLink": "classnotes/week_02/day_4/composition/composition.md",
-        "symlink": "/app/docs/codeclan/week_02/day_4/composition.md",
+        "symlink": "app/docs/codeclan/week_02/day_4/composition.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -258,7 +258,7 @@
     "classnotes/week_02/day_4/inheritance/inheritance.md": {
         "filename": "inheritance.md",
         "fileLink": "classnotes/week_02/day_4/inheritance/inheritance.md",
-        "symlink": "/app/docs/codeclan/week_02/day_4/inheritance.md",
+        "symlink": "app/docs/codeclan/week_02/day_4/inheritance.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -266,7 +266,7 @@
     "classnotes/week_02/day_4/list_comprehension/list_comprehension.md": {
         "filename": "list_comprehension.md",
         "fileLink": "classnotes/week_02/day_4/list_comprehension/list_comprehension.md",
-        "symlink": "/app/docs/codeclan/week_02/day_4/list_comprehension.md",
+        "symlink": "app/docs/codeclan/week_02/day_4/list_comprehension.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -274,7 +274,7 @@
     "classnotes/week_02/day_4/tdd_branches_lab/tdd_branches_lab.md": {
         "filename": "tdd_branches_lab.md",
         "fileLink": "classnotes/week_02/day_4/tdd_branches_lab/tdd_branches_lab.md",
-        "symlink": "/app/docs/codeclan/week_02/day_4/tdd_branches_lab.md",
+        "symlink": "app/docs/codeclan/week_02/day_4/tdd_branches_lab.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -282,7 +282,7 @@
     "classnotes/week_02/day_5/weekend_homework/weekend_homework.md": {
         "filename": "weekend_homework.md",
         "fileLink": "classnotes/week_02/day_5/weekend_homework/weekend_homework.md",
-        "symlink": "/app/docs/codeclan/week_02/day_5/weekend_homework.md",
+        "symlink": "app/docs/codeclan/week_02/day_5/weekend_homework.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -290,7 +290,7 @@
     "classnotes/week_03/day_1/01_html/semantic_html5.md": {
         "filename": "semantic_html5.md",
         "fileLink": "classnotes/week_03/day_1/01_html/semantic_html5.md",
-        "symlink": "/app/docs/codeclan/week_03/day_1/semantic_html5.md",
+        "symlink": "app/docs/codeclan/week_03/day_1/semantic_html5.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -298,7 +298,7 @@
     "classnotes/week_03/day_1/02_css/css.md": {
         "filename": "css.md",
         "fileLink": "classnotes/week_03/day_1/02_css/css.md",
-        "symlink": "/app/docs/codeclan/week_03/day_1/css.md",
+        "symlink": "app/docs/codeclan/week_03/day_1/css.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -306,7 +306,7 @@
     "classnotes/week_03/day_1/03_html_css_lab_hw/html_css_lab.md": {
         "filename": "html_css_lab.md",
         "fileLink": "classnotes/week_03/day_1/03_html_css_lab_hw/html_css_lab.md",
-        "symlink": "/app/docs/codeclan/week_03/day_1/html_css_lab.md",
+        "symlink": "app/docs/codeclan/week_03/day_1/html_css_lab.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -314,7 +314,7 @@
     "classnotes/week_03/day_2/01_css_layout/flexbox/flexbox.md": {
         "filename": "flexbox.md",
         "fileLink": "classnotes/week_03/day_2/01_css_layout/flexbox/flexbox.md",
-        "symlink": "/app/docs/codeclan/week_03/day_2/flexbox.md",
+        "symlink": "app/docs/codeclan/week_03/day_2/flexbox.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -322,7 +322,7 @@
     "classnotes/week_03/day_2/01_css_layout/grid/grid.md": {
         "filename": "grid.md",
         "fileLink": "classnotes/week_03/day_2/01_css_layout/grid/grid.md",
-        "symlink": "/app/docs/codeclan/week_03/day_2/grid.md",
+        "symlink": "app/docs/codeclan/week_03/day_2/grid.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -330,7 +330,7 @@
     "classnotes/week_03/day_2/01_css_layout/media_queries/media_queries.md": {
         "filename": "media_queries.md",
         "fileLink": "classnotes/week_03/day_2/01_css_layout/media_queries/media_queries.md",
-        "symlink": "/app/docs/codeclan/week_03/day_2/media_queries.md",
+        "symlink": "app/docs/codeclan/week_03/day_2/media_queries.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -338,7 +338,7 @@
     "classnotes/week_03/day_2/02_grid_flexbox_lab/css_grid_flexbox_lab.md": {
         "filename": "css_grid_flexbox_lab.md",
         "fileLink": "classnotes/week_03/day_2/02_grid_flexbox_lab/css_grid_flexbox_lab.md",
-        "symlink": "/app/docs/codeclan/week_03/day_2/css_grid_flexbox_lab.md",
+        "symlink": "app/docs/codeclan/week_03/day_2/css_grid_flexbox_lab.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -346,7 +346,7 @@
     "classnotes/week_03/day_2/03_hw_flipped_intro_to_mvc_web/03_hw_intro_to_web_mvc.md": {
         "filename": "03_hw_intro_to_web_mvc.md",
         "fileLink": "classnotes/week_03/day_2/03_hw_flipped_intro_to_mvc_web/03_hw_intro_to_web_mvc.md",
-        "symlink": "/app/docs/codeclan/week_03/day_2/03_hw_intro_to_web_mvc.md",
+        "symlink": "app/docs/codeclan/week_03/day_2/03_hw_intro_to_web_mvc.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -354,7 +354,7 @@
     "classnotes/week_03/day_2/03_hw_flipped_intro_to_mvc_web/notes/intro_to_web.md": {
         "filename": "intro_to_web.md",
         "fileLink": "classnotes/week_03/day_2/03_hw_flipped_intro_to_mvc_web/notes/intro_to_web.md",
-        "symlink": "/app/docs/codeclan/week_03/day_2/intro_to_web.md",
+        "symlink": "app/docs/codeclan/week_03/day_2/intro_to_web.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -362,7 +362,7 @@
     "classnotes/week_03/day_2/03_hw_flipped_intro_to_mvc_web/notes/mvc.md": {
         "filename": "mvc.md",
         "fileLink": "classnotes/week_03/day_2/03_hw_flipped_intro_to_mvc_web/notes/mvc.md",
-        "symlink": "/app/docs/codeclan/week_03/day_2/mvc.md",
+        "symlink": "app/docs/codeclan/week_03/day_2/mvc.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -370,7 +370,7 @@
     "classnotes/week_03/day_3/01_intro_to_flask/01_intro_to_flask.md": {
         "filename": "01_intro_to_flask.md",
         "fileLink": "classnotes/week_03/day_3/01_intro_to_flask/01_intro_to_flask.md",
-        "symlink": "/app/docs/codeclan/week_03/day_3/01_intro_to_flask.md",
+        "symlink": "app/docs/codeclan/week_03/day_3/01_intro_to_flask.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -378,7 +378,7 @@
     "classnotes/week_03/day_3/02_flask_models_djinja/02_flask_models_djinja.md": {
         "filename": "02_flask_models_djinja.md",
         "fileLink": "classnotes/week_03/day_3/02_flask_models_djinja/02_flask_models_djinja.md",
-        "symlink": "/app/docs/codeclan/week_03/day_3/02_flask_models_djinja.md",
+        "symlink": "app/docs/codeclan/week_03/day_3/02_flask_models_djinja.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -386,7 +386,7 @@
     "classnotes/week_03/day_3/03_flask_lab/flask_models_lab.md": {
         "filename": "flask_models_lab.md",
         "fileLink": "classnotes/week_03/day_3/03_flask_lab/flask_models_lab.md",
-        "symlink": "/app/docs/codeclan/week_03/day_3/flask_models_lab.md",
+        "symlink": "app/docs/codeclan/week_03/day_3/flask_models_lab.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -394,7 +394,7 @@
     "classnotes/week_03/day_3/05_optional_hw_flask_calculator/flask_calculator_hw.md": {
         "filename": "flask_calculator_hw.md",
         "fileLink": "classnotes/week_03/day_3/05_optional_hw_flask_calculator/flask_calculator_hw.md",
-        "symlink": "/app/docs/codeclan/week_03/day_3/flask_calculator_hw.md",
+        "symlink": "app/docs/codeclan/week_03/day_3/flask_calculator_hw.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -402,7 +402,7 @@
     "classnotes/week_03/day_4/01_flask_templates/01_flask_templates.md": {
         "filename": "01_flask_templates.md",
         "fileLink": "classnotes/week_03/day_4/01_flask_templates/01_flask_templates.md",
-        "symlink": "/app/docs/codeclan/week_03/day_4/01_flask_templates.md",
+        "symlink": "app/docs/codeclan/week_03/day_4/01_flask_templates.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -410,7 +410,7 @@
     "classnotes/week_03/day_4/02_flask_template_lab/flask_templates_lab.md": {
         "filename": "flask_templates_lab.md",
         "fileLink": "classnotes/week_03/day_4/02_flask_template_lab/flask_templates_lab.md",
-        "symlink": "/app/docs/codeclan/week_03/day_4/flask_templates_lab.md",
+        "symlink": "app/docs/codeclan/week_03/day_4/flask_templates_lab.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -418,7 +418,7 @@
     "classnotes/week_03/weekend_hw_rps/weekend_hw_rps.md": {
         "filename": "weekend_hw_rps.md",
         "fileLink": "classnotes/week_03/weekend_hw_rps/weekend_hw_rps.md",
-        "symlink": "/app/docs/codeclan/week_03/weekend_hw_rps/weekend_hw_rps.md",
+        "symlink": "app/docs/codeclan/week_03/weekend_hw_rps/weekend_hw_rps.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -426,7 +426,7 @@
     "classnotes/week_04/day_1/01_intro_to_sql/01_databases_and_sql_intro.md": {
         "filename": "01_databases_and_sql_intro.md",
         "fileLink": "classnotes/week_04/day_1/01_intro_to_sql/01_databases_and_sql_intro.md",
-        "symlink": "/app/docs/codeclan/week_04/day_1/01_databases_and_sql_intro.md",
+        "symlink": "app/docs/codeclan/week_04/day_1/01_databases_and_sql_intro.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -434,7 +434,7 @@
     "classnotes/week_04/day_1/01_intro_to_sql/02_associations_intro.md": {
         "filename": "02_associations_intro.md",
         "fileLink": "classnotes/week_04/day_1/01_intro_to_sql/02_associations_intro.md",
-        "symlink": "/app/docs/codeclan/week_04/day_1/02_associations_intro.md",
+        "symlink": "app/docs/codeclan/week_04/day_1/02_associations_intro.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -442,7 +442,7 @@
     "classnotes/week_04/day_1/01_intro_to_sql/03_one_to_many.md": {
         "filename": "03_one_to_many.md",
         "fileLink": "classnotes/week_04/day_1/01_intro_to_sql/03_one_to_many.md",
-        "symlink": "/app/docs/codeclan/week_04/day_1/03_one_to_many.md",
+        "symlink": "app/docs/codeclan/week_04/day_1/03_one_to_many.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -450,7 +450,7 @@
     "classnotes/week_04/day_1/02_cinema_crud_sql_lab/answers.md": {
         "filename": "answers.md",
         "fileLink": "classnotes/week_04/day_1/02_cinema_crud_sql_lab/answers.md",
-        "symlink": "/app/docs/codeclan/week_04/day_1/answers.md",
+        "symlink": "app/docs/codeclan/week_04/day_1/answers.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -458,7 +458,7 @@
     "classnotes/week_04/day_1/02_cinema_crud_sql_lab/lab.md": {
         "filename": "lab.md",
         "fileLink": "classnotes/week_04/day_1/02_cinema_crud_sql_lab/lab.md",
-        "symlink": "/app/docs/codeclan/week_04/day_1/lab.md",
+        "symlink": "app/docs/codeclan/week_04/day_1/lab.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -466,7 +466,7 @@
     "classnotes/week_04/day_1/03_psycopg2_flipped_hw/flipped_lesson.md": {
         "filename": "flipped_lesson.md",
         "fileLink": "classnotes/week_04/day_1/03_psycopg2_flipped_hw/flipped_lesson.md",
-        "symlink": "/app/docs/codeclan/week_04/day_1/flipped_lesson.md",
+        "symlink": "app/docs/codeclan/week_04/day_1/flipped_lesson.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -474,7 +474,7 @@
     "classnotes/week_04/day_1/03_psycopg2_flipped_hw/single_model_with_db.md": {
         "filename": "single_model_with_db.md",
         "fileLink": "classnotes/week_04/day_1/03_psycopg2_flipped_hw/single_model_with_db.md",
-        "symlink": "/app/docs/codeclan/week_04/day_1/single_model_with_db.md",
+        "symlink": "app/docs/codeclan/week_04/day_1/single_model_with_db.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -482,7 +482,7 @@
     "classnotes/week_04/day_2/01_one_to_many_task_list/one_to_many.md": {
         "filename": "one_to_many.md",
         "fileLink": "classnotes/week_04/day_2/01_one_to_many_task_list/one_to_many.md",
-        "symlink": "/app/docs/codeclan/week_04/day_2/one_to_many.md",
+        "symlink": "app/docs/codeclan/week_04/day_2/one_to_many.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -490,7 +490,7 @@
     "classnotes/week_04/day_2/02_music_library_lab/music_lab.md": {
         "filename": "music_lab.md",
         "fileLink": "classnotes/week_04/day_2/02_music_library_lab/music_lab.md",
-        "symlink": "/app/docs/codeclan/week_04/day_2/music_lab.md",
+        "symlink": "app/docs/codeclan/week_04/day_2/music_lab.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -498,7 +498,7 @@
     "classnotes/week_04/day_2/03_hw_fullstack_intro_flipped/full_stack_part_1.md": {
         "filename": "full_stack_part_1.md",
         "fileLink": "classnotes/week_04/day_2/03_hw_fullstack_intro_flipped/full_stack_part_1.md",
-        "symlink": "/app/docs/codeclan/week_04/day_2/full_stack_part_1.md",
+        "symlink": "app/docs/codeclan/week_04/day_2/full_stack_part_1.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -506,7 +506,7 @@
     "classnotes/week_04/day_3/01_full_stack_task_list/full_stack_part_2.md": {
         "filename": "full_stack_part_2.md",
         "fileLink": "classnotes/week_04/day_3/01_full_stack_task_list/full_stack_part_2.md",
-        "symlink": "/app/docs/codeclan/week_04/day_3/full_stack_part_2.md",
+        "symlink": "app/docs/codeclan/week_04/day_3/full_stack_part_2.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -514,7 +514,7 @@
     "classnotes/week_04/day_3/02_one_to_many_lab/one_to_many_lab.md": {
         "filename": "one_to_many_lab.md",
         "fileLink": "classnotes/week_04/day_3/02_one_to_many_lab/one_to_many_lab.md",
-        "symlink": "/app/docs/codeclan/week_04/day_3/one_to_many_lab.md",
+        "symlink": "app/docs/codeclan/week_04/day_3/one_to_many_lab.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -522,7 +522,7 @@
     "classnotes/week_04/day_3/03_inner_joins_flipped_hw/many_to_many.md": {
         "filename": "many_to_many.md",
         "fileLink": "classnotes/week_04/day_3/03_inner_joins_flipped_hw/many_to_many.md",
-        "symlink": "/app/docs/codeclan/week_04/day_3/many_to_many.md",
+        "symlink": "app/docs/codeclan/week_04/day_3/many_to_many.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -530,7 +530,7 @@
     "classnotes/week_04/day_4/02_lab_many_to_many_zombies/many_to_many_zombies.md": {
         "filename": "many_to_many_zombies.md",
         "fileLink": "classnotes/week_04/day_4/02_lab_many_to_many_zombies/many_to_many_zombies.md",
-        "symlink": "/app/docs/codeclan/week_04/day_4/many_to_many_zombies.md",
+        "symlink": "app/docs/codeclan/week_04/day_4/many_to_many_zombies.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -538,7 +538,7 @@
     "classnotes/week_04/day_4/projects/bank/Gym.md": {
         "filename": "Gym.md",
         "fileLink": "classnotes/week_04/day_4/projects/bank/Gym.md",
-        "symlink": "/app/docs/codeclan/week_04/day_4/Gym.md",
+        "symlink": "app/docs/codeclan/week_04/day_4/Gym.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -546,7 +546,7 @@
     "classnotes/week_04/day_4/projects/bank/Shop_Inventory.md": {
         "filename": "Shop_Inventory.md",
         "fileLink": "classnotes/week_04/day_4/projects/bank/Shop_Inventory.md",
-        "symlink": "/app/docs/codeclan/week_04/day_4/Shop_Inventory.md",
+        "symlink": "app/docs/codeclan/week_04/day_4/Shop_Inventory.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -554,7 +554,7 @@
     "classnotes/week_04/day_4/projects/bank/Spending_Tracker.md": {
         "filename": "Spending_Tracker.md",
         "fileLink": "classnotes/week_04/day_4/projects/bank/Spending_Tracker.md",
-        "symlink": "/app/docs/codeclan/week_04/day_4/Spending_Tracker.md",
+        "symlink": "app/docs/codeclan/week_04/day_4/Spending_Tracker.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -562,7 +562,7 @@
     "classnotes/week_04/day_4/projects/bank/Sports_Scoring.md": {
         "filename": "Sports_Scoring.md",
         "fileLink": "classnotes/week_04/day_4/projects/bank/Sports_Scoring.md",
-        "symlink": "/app/docs/codeclan/week_04/day_4/Sports_Scoring.md",
+        "symlink": "app/docs/codeclan/week_04/day_4/Sports_Scoring.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -570,7 +570,7 @@
     "classnotes/week_04/day_4/projects/bank/Travel_Bucket_List.md": {
         "filename": "Travel_Bucket_List.md",
         "fileLink": "classnotes/week_04/day_4/projects/bank/Travel_Bucket_List.md",
-        "symlink": "/app/docs/codeclan/week_04/day_4/Travel_Bucket_List.md",
+        "symlink": "app/docs/codeclan/week_04/day_4/Travel_Bucket_List.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -578,7 +578,7 @@
     "classnotes/week_04/day_4/projects/bank/Vet_Management.md": {
         "filename": "Vet_Management.md",
         "fileLink": "classnotes/week_04/day_4/projects/bank/Vet_Management.md",
-        "symlink": "/app/docs/codeclan/week_04/day_4/Vet_Management.md",
+        "symlink": "app/docs/codeclan/week_04/day_4/Vet_Management.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -586,7 +586,7 @@
     "classnotes/week_04/day_4/projects/checklist.md": {
         "filename": "checklist.md",
         "fileLink": "classnotes/week_04/day_4/projects/checklist.md",
-        "symlink": "/app/docs/codeclan/week_04/day_4/checklist.md",
+        "symlink": "app/docs/codeclan/week_04/day_4/checklist.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -594,7 +594,7 @@
     "classnotes/week_04/day_4/projects/projects.md": {
         "filename": "projects.md",
         "fileLink": "classnotes/week_04/day_4/projects/projects.md",
-        "symlink": "/app/docs/codeclan/week_04/day_4/projects.md",
+        "symlink": "app/docs/codeclan/week_04/day_4/projects.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -602,7 +602,7 @@
     "classnotes/week_06/day_1/functions/functions.md": {
         "filename": "functions.md",
         "fileLink": "classnotes/week_06/day_1/functions/functions.md",
-        "symlink": "/app/docs/codeclan/week_06/day_1/functions.md",
+        "symlink": "app/docs/codeclan/week_06/day_1/functions.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -610,7 +610,7 @@
     "classnotes/week_06/day_1/fundamentals/fundamentals.md": {
         "filename": "fundamentals.md",
         "fileLink": "classnotes/week_06/day_1/fundamentals/fundamentals.md",
-        "symlink": "/app/docs/codeclan/week_06/day_1/fundamentals.md",
+        "symlink": "app/docs/codeclan/week_06/day_1/fundamentals.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -618,7 +618,7 @@
     "classnotes/week_06/day_1/hw_scope_whodunnit/hw_scope_whodunnit.md": {
         "filename": "hw_scope_whodunnit.md",
         "fileLink": "classnotes/week_06/day_1/hw_scope_whodunnit/hw_scope_whodunnit.md",
-        "symlink": "/app/docs/codeclan/week_06/day_1/hw_scope_whodunnit.md",
+        "symlink": "app/docs/codeclan/week_06/day_1/hw_scope_whodunnit.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -626,7 +626,7 @@
     "classnotes/week_06/day_1/js_node_intro/js_node_intro.md": {
         "filename": "js_node_intro.md",
         "fileLink": "classnotes/week_06/day_1/js_node_intro/js_node_intro.md",
-        "symlink": "/app/docs/codeclan/week_06/day_1/js_node_intro.md",
+        "symlink": "app/docs/codeclan/week_06/day_1/js_node_intro.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -634,7 +634,7 @@
     "classnotes/week_06/day_1/objects_arrays_loops/objects_arrays_loops.md": {
         "filename": "objects_arrays_loops.md",
         "fileLink": "classnotes/week_06/day_1/objects_arrays_loops/objects_arrays_loops.md",
-        "symlink": "/app/docs/codeclan/week_06/day_1/objects_arrays_loops.md",
+        "symlink": "app/docs/codeclan/week_06/day_1/objects_arrays_loops.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -642,7 +642,7 @@
     "classnotes/week_06/day_1/scope/scope.md": {
         "filename": "scope.md",
         "fileLink": "classnotes/week_06/day_1/scope/scope.md",
-        "symlink": "/app/docs/codeclan/week_06/day_1/scope.md",
+        "symlink": "app/docs/codeclan/week_06/day_1/scope.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -650,7 +650,7 @@
     "classnotes/week_06/day_2/constructors_prototypes/constructors_prototypes.md": {
         "filename": "constructors_prototypes.md",
         "fileLink": "classnotes/week_06/day_2/constructors_prototypes/constructors_prototypes.md",
-        "symlink": "/app/docs/codeclan/week_06/day_2/constructors_prototypes.md",
+        "symlink": "app/docs/codeclan/week_06/day_2/constructors_prototypes.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -658,7 +658,7 @@
     "classnotes/week_06/day_2/lab_tdd_painter_decorator/lab_tdd_painter_decorater.md": {
         "filename": "lab_tdd_painter_decorater.md",
         "fileLink": "classnotes/week_06/day_2/lab_tdd_painter_decorator/lab_tdd_painter_decorater.md",
-        "symlink": "/app/docs/codeclan/week_06/day_2/lab_tdd_painter_decorater.md",
+        "symlink": "app/docs/codeclan/week_06/day_2/lab_tdd_painter_decorater.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -666,7 +666,7 @@
     "classnotes/week_06/day_2/npm/npm.md": {
         "filename": "npm.md",
         "fileLink": "classnotes/week_06/day_2/npm/npm.md",
-        "symlink": "/app/docs/codeclan/week_06/day_2/npm.md",
+        "symlink": "app/docs/codeclan/week_06/day_2/npm.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -674,7 +674,7 @@
     "classnotes/week_06/day_2/tdd/tdd.md": {
         "filename": "tdd.md",
         "fileLink": "classnotes/week_06/day_2/tdd/tdd.md",
-        "symlink": "/app/docs/codeclan/week_06/day_2/tdd.md",
+        "symlink": "app/docs/codeclan/week_06/day_2/tdd.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -682,7 +682,7 @@
     "classnotes/week_06/day_3/callbacks_enumeration/callbacks_enumeration.md": {
         "filename": "callbacks_enumeration.md",
         "fileLink": "classnotes/week_06/day_3/callbacks_enumeration/callbacks_enumeration.md",
-        "symlink": "/app/docs/codeclan/week_06/day_3/callbacks_enumeration.md",
+        "symlink": "app/docs/codeclan/week_06/day_3/callbacks_enumeration.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -690,7 +690,7 @@
     "classnotes/week_06/day_3/higher_order_functions/higher_order_functions.md": {
         "filename": "higher_order_functions.md",
         "fileLink": "classnotes/week_06/day_3/higher_order_functions/higher_order_functions.md",
-        "symlink": "/app/docs/codeclan/week_06/day_3/higher_order_functions.md",
+        "symlink": "app/docs/codeclan/week_06/day_3/higher_order_functions.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -698,7 +698,7 @@
     "classnotes/week_06/day_3/hw_advanced/hw_enumeration_brief.md": {
         "filename": "hw_enumeration_brief.md",
         "fileLink": "classnotes/week_06/day_3/hw_advanced/hw_enumeration_brief.md",
-        "symlink": "/app/docs/codeclan/week_06/day_3/hw_enumeration_brief.md",
+        "symlink": "app/docs/codeclan/week_06/day_3/hw_enumeration_brief.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -706,7 +706,7 @@
     "classnotes/week_06/day_3/hw_traveller/hw_traveller_brief.md": {
         "filename": "hw_traveller_brief.md",
         "fileLink": "classnotes/week_06/day_3/hw_traveller/hw_traveller_brief.md",
-        "symlink": "/app/docs/codeclan/week_06/day_3/hw_traveller_brief.md",
+        "symlink": "app/docs/codeclan/week_06/day_3/hw_traveller_brief.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -714,7 +714,7 @@
     "classnotes/week_06/day_3/lab_callbacks_films/lab_enumeration_callbacks_films.md": {
         "filename": "lab_enumeration_callbacks_films.md",
         "fileLink": "classnotes/week_06/day_3/lab_callbacks_films/lab_enumeration_callbacks_films.md",
-        "symlink": "/app/docs/codeclan/week_06/day_3/lab_enumeration_callbacks_films.md",
+        "symlink": "app/docs/codeclan/week_06/day_3/lab_enumeration_callbacks_films.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -722,7 +722,7 @@
     "classnotes/week_06/day_4/advanced_devtools/advanced_devtools.md": {
         "filename": "advanced_devtools.md",
         "fileLink": "classnotes/week_06/day_4/advanced_devtools/advanced_devtools.md",
-        "symlink": "/app/docs/codeclan/week_06/day_4/advanced_devtools.md",
+        "symlink": "app/docs/codeclan/week_06/day_4/advanced_devtools.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -730,7 +730,7 @@
     "classnotes/week_06/day_4/dom_intro/dom_intro.md": {
         "filename": "dom_intro.md",
         "fileLink": "classnotes/week_06/day_4/dom_intro/dom_intro.md",
-        "symlink": "/app/docs/codeclan/week_06/day_4/dom_intro.md",
+        "symlink": "app/docs/codeclan/week_06/day_4/dom_intro.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -738,7 +738,7 @@
     "classnotes/week_06/day_4/events/events.md": {
         "filename": "events.md",
         "fileLink": "classnotes/week_06/day_4/events/events.md",
-        "symlink": "/app/docs/codeclan/week_06/day_4/events.md",
+        "symlink": "app/docs/codeclan/week_06/day_4/events.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -746,7 +746,7 @@
     "classnotes/week_06/day_4/lab_events/lab_events.md": {
         "filename": "lab_events.md",
         "fileLink": "classnotes/week_06/day_4/lab_events/lab_events.md",
-        "symlink": "/app/docs/codeclan/week_06/day_4/lab_events.md",
+        "symlink": "app/docs/codeclan/week_06/day_4/lab_events.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -754,7 +754,7 @@
     "classnotes/week_06/weekend_hw/weekend_hw_dom_context/hw_context/hw_context.md": {
         "filename": "hw_context.md",
         "fileLink": "classnotes/week_06/weekend_hw/weekend_hw_dom_context/hw_context/hw_context.md",
-        "symlink": "/app/docs/codeclan/week_06/weekend_hw/hw_context.md",
+        "symlink": "app/docs/codeclan/week_06/weekend_hw/hw_context.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -762,7 +762,7 @@
     "classnotes/week_06/weekend_hw/weekend_hw_dom_context/hw_dom/recap_weekend_hw_dom.md": {
         "filename": "recap_weekend_hw_dom.md",
         "fileLink": "classnotes/week_06/weekend_hw/weekend_hw_dom_context/hw_dom/recap_weekend_hw_dom.md",
-        "symlink": "/app/docs/codeclan/week_06/weekend_hw/recap_weekend_hw_dom.md",
+        "symlink": "app/docs/codeclan/week_06/weekend_hw/recap_weekend_hw_dom.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -770,7 +770,7 @@
     "classnotes/week_06/weekend_hw/weekend_hw_dom_context/hw_dom/weekend_hw_dom.md": {
         "filename": "weekend_hw_dom.md",
         "fileLink": "classnotes/week_06/weekend_hw/weekend_hw_dom_context/hw_dom/weekend_hw_dom.md",
-        "symlink": "/app/docs/codeclan/week_06/weekend_hw/weekend_hw_dom.md",
+        "symlink": "app/docs/codeclan/week_06/weekend_hw/weekend_hw_dom.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -778,7 +778,7 @@
     "classnotes/week_07/day_1/1_cli_and_templates_intro/cli_and_templates_intro.md": {
         "filename": "cli_and_templates_intro.md",
         "fileLink": "classnotes/week_07/day_1/1_cli_and_templates_intro/cli_and_templates_intro.md",
-        "symlink": "/app/docs/codeclan/week_07/day_1/cli_and_templates_intro.md",
+        "symlink": "app/docs/codeclan/week_07/day_1/cli_and_templates_intro.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -786,7 +786,7 @@
     "classnotes/week_07/day_1/2_intro_to_vue_sca_events_methods/intro_to_vue1.md": {
         "filename": "intro_to_vue1.md",
         "fileLink": "classnotes/week_07/day_1/2_intro_to_vue_sca_events_methods/intro_to_vue1.md",
-        "symlink": "/app/docs/codeclan/week_07/day_1/intro_to_vue1.md",
+        "symlink": "app/docs/codeclan/week_07/day_1/intro_to_vue1.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -794,7 +794,7 @@
     "classnotes/week_07/day_1/3_intro_to_vue_loops_conditionals/intro_to_vue2.md": {
         "filename": "intro_to_vue2.md",
         "fileLink": "classnotes/week_07/day_1/3_intro_to_vue_loops_conditionals/intro_to_vue2.md",
-        "symlink": "/app/docs/codeclan/week_07/day_1/intro_to_vue2.md",
+        "symlink": "app/docs/codeclan/week_07/day_1/intro_to_vue2.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -802,7 +802,7 @@
     "classnotes/week_07/day_1/4_hw_todos/hw_todos.md": {
         "filename": "hw_todos.md",
         "fileLink": "classnotes/week_07/day_1/4_hw_todos/hw_todos.md",
-        "symlink": "/app/docs/codeclan/week_07/day_1/hw_todos.md",
+        "symlink": "app/docs/codeclan/week_07/day_1/hw_todos.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -810,7 +810,7 @@
     "classnotes/week_07/day_2/1_multiple_components_and_props/multiple_components_and_props.md": {
         "filename": "multiple_components_and_props.md",
         "fileLink": "classnotes/week_07/day_2/1_multiple_components_and_props/multiple_components_and_props.md",
-        "symlink": "/app/docs/codeclan/week_07/day_2/multiple_components_and_props.md",
+        "symlink": "app/docs/codeclan/week_07/day_2/multiple_components_and_props.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -818,7 +818,7 @@
     "classnotes/week_07/day_2/2_fetch_promises_and_lifecycle_hooks/fetch_promises_and_lifecycle_hooks.md": {
         "filename": "fetch_promises_and_lifecycle_hooks.md",
         "fileLink": "classnotes/week_07/day_2/2_fetch_promises_and_lifecycle_hooks/fetch_promises_and_lifecycle_hooks.md",
-        "symlink": "/app/docs/codeclan/week_07/day_2/fetch_promises_and_lifecycle_hooks.md",
+        "symlink": "app/docs/codeclan/week_07/day_2/fetch_promises_and_lifecycle_hooks.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -826,7 +826,7 @@
     "classnotes/week_07/day_2/3_countries_lab/countries_lab.md": {
         "filename": "countries_lab.md",
         "fileLink": "classnotes/week_07/day_2/3_countries_lab/countries_lab.md",
-        "symlink": "/app/docs/codeclan/week_07/day_2/countries_lab.md",
+        "symlink": "app/docs/codeclan/week_07/day_2/countries_lab.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -834,7 +834,7 @@
     "classnotes/week_07/day_2/4_hw_computed_properties_flipped/computed_properties.md": {
         "filename": "computed_properties.md",
         "fileLink": "classnotes/week_07/day_2/4_hw_computed_properties_flipped/computed_properties.md",
-        "symlink": "/app/docs/codeclan/week_07/day_2/computed_properties.md",
+        "symlink": "app/docs/codeclan/week_07/day_2/computed_properties.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -842,7 +842,7 @@
     "classnotes/week_07/day_3/1_multiple_components_event_bus/multiple_components_event_bus.md": {
         "filename": "multiple_components_event_bus.md",
         "fileLink": "classnotes/week_07/day_3/1_multiple_components_event_bus/multiple_components_event_bus.md",
-        "symlink": "/app/docs/codeclan/week_07/day_3/multiple_components_event_bus.md",
+        "symlink": "app/docs/codeclan/week_07/day_3/multiple_components_event_bus.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -850,7 +850,7 @@
     "classnotes/week_07/day_3/2_multi_components_lab/multi_components_lab.md": {
         "filename": "multi_components_lab.md",
         "fileLink": "classnotes/week_07/day_3/2_multi_components_lab/multi_components_lab.md",
-        "symlink": "/app/docs/codeclan/week_07/day_3/multi_components_lab.md",
+        "symlink": "app/docs/codeclan/week_07/day_3/multi_components_lab.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -858,7 +858,7 @@
     "classnotes/week_07/day_3/3_testing_vue_components/testing_vue_components.md": {
         "filename": "testing_vue_components.md",
         "fileLink": "classnotes/week_07/day_3/3_testing_vue_components/testing_vue_components.md",
-        "symlink": "/app/docs/codeclan/week_07/day_3/testing_vue_components.md",
+        "symlink": "app/docs/codeclan/week_07/day_3/testing_vue_components.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -866,7 +866,7 @@
     "classnotes/week_07/day_3/4_pda_testing_hw/pda_testing_hw.md": {
         "filename": "pda_testing_hw.md",
         "fileLink": "classnotes/week_07/day_3/4_pda_testing_hw/pda_testing_hw.md",
-        "symlink": "/app/docs/codeclan/week_07/day_3/pda_testing_hw.md",
+        "symlink": "app/docs/codeclan/week_07/day_3/pda_testing_hw.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -874,7 +874,7 @@
     "classnotes/week_07/day_4/1a_energy_tracker_lab/energy_tracker_lab.md": {
         "filename": "energy_tracker_lab.md",
         "fileLink": "classnotes/week_07/day_4/1a_energy_tracker_lab/energy_tracker_lab.md",
-        "symlink": "/app/docs/codeclan/week_07/day_4/energy_tracker_lab.md",
+        "symlink": "app/docs/codeclan/week_07/day_4/energy_tracker_lab.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -882,7 +882,7 @@
     "classnotes/week_07/day_4/1b_brewdog_lab/brewdog_lab.md": {
         "filename": "brewdog_lab.md",
         "fileLink": "classnotes/week_07/day_4/1b_brewdog_lab/brewdog_lab.md",
-        "symlink": "/app/docs/codeclan/week_07/day_4/brewdog_lab.md",
+        "symlink": "app/docs/codeclan/week_07/day_4/brewdog_lab.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -890,7 +890,7 @@
     "classnotes/week_07/weekend_hw/weekend_homework.md": {
         "filename": "weekend_homework.md",
         "fileLink": "classnotes/week_07/weekend_hw/weekend_homework.md",
-        "symlink": "/app/docs/codeclan/week_07/weekend_hw/weekend_homework.md",
+        "symlink": "app/docs/codeclan/week_07/weekend_hw/weekend_homework.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -898,7 +898,7 @@
     "classnotes/week_08/day_1/express_rest_api_teas_biscuits/express_rest_api_teas_biscuits.md": {
         "filename": "express_rest_api_teas_biscuits.md",
         "fileLink": "classnotes/week_08/day_1/express_rest_api_teas_biscuits/express_rest_api_teas_biscuits.md",
-        "symlink": "/app/docs/codeclan/week_08/day_1/express_rest_api_teas_biscuits.md",
+        "symlink": "app/docs/codeclan/week_08/day_1/express_rest_api_teas_biscuits.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -906,7 +906,7 @@
     "classnotes/week_08/day_1/hw_full_stack_app_preparation/hw_full_stack_app_preparation.md": {
         "filename": "hw_full_stack_app_preparation.md",
         "fileLink": "classnotes/week_08/day_1/hw_full_stack_app_preparation/hw_full_stack_app_preparation.md",
-        "symlink": "/app/docs/codeclan/week_08/day_1/hw_full_stack_app_preparation.md",
+        "symlink": "app/docs/codeclan/week_08/day_1/hw_full_stack_app_preparation.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -914,7 +914,7 @@
     "classnotes/week_08/day_1/hw_full_stack_app_preparation/hw_full_stack_app_preparation_end/recap_full_stack_app_preparation.md": {
         "filename": "recap_full_stack_app_preparation.md",
         "fileLink": "classnotes/week_08/day_1/hw_full_stack_app_preparation/hw_full_stack_app_preparation_end/recap_full_stack_app_preparation.md",
-        "symlink": "/app/docs/codeclan/week_08/day_1/recap_full_stack_app_preparation.md",
+        "symlink": "app/docs/codeclan/week_08/day_1/recap_full_stack_app_preparation.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -922,7 +922,7 @@
     "classnotes/week_08/day_1/intro_to_express/intro_to_express.md": {
         "filename": "intro_to_express.md",
         "fileLink": "classnotes/week_08/day_1/intro_to_express/intro_to_express.md",
-        "symlink": "/app/docs/codeclan/week_08/day_1/intro_to_express.md",
+        "symlink": "app/docs/codeclan/week_08/day_1/intro_to_express.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -930,7 +930,7 @@
     "classnotes/week_08/day_1/intro_to_mongodb/intro_to_mongodb.md": {
         "filename": "intro_to_mongodb.md",
         "fileLink": "classnotes/week_08/day_1/intro_to_mongodb/intro_to_mongodb.md",
-        "symlink": "/app/docs/codeclan/week_08/day_1/intro_to_mongodb.md",
+        "symlink": "app/docs/codeclan/week_08/day_1/intro_to_mongodb.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -938,7 +938,7 @@
     "classnotes/week_08/day_2/lab_full_stack_post_birds/lab_full_stack_post_birds.md": {
         "filename": "lab_full_stack_post_birds.md",
         "fileLink": "classnotes/week_08/day_2/lab_full_stack_post_birds/lab_full_stack_post_birds.md",
-        "symlink": "/app/docs/codeclan/week_08/day_2/lab_full_stack_post_birds.md",
+        "symlink": "app/docs/codeclan/week_08/day_2/lab_full_stack_post_birds.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -946,7 +946,7 @@
     "classnotes/week_08/day_2/mongodb_with_server/mongodb_with_server.md": {
         "filename": "mongodb_with_server.md",
         "fileLink": "classnotes/week_08/day_2/mongodb_with_server/mongodb_with_server.md",
-        "symlink": "/app/docs/codeclan/week_08/day_2/mongodb_with_server.md",
+        "symlink": "app/docs/codeclan/week_08/day_2/mongodb_with_server.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -954,7 +954,7 @@
     "classnotes/week_08/day_3/lab_hotel_checkins/lab_hotel_checkins.md": {
         "filename": "lab_hotel_checkins.md",
         "fileLink": "classnotes/week_08/day_3/lab_hotel_checkins/lab_hotel_checkins.md",
-        "symlink": "/app/docs/codeclan/week_08/day_3/lab_hotel_checkins.md",
+        "symlink": "app/docs/codeclan/week_08/day_3/lab_hotel_checkins.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -962,7 +962,7 @@
     "classnotes/week_08/day_4/agile_scrum/agile_scrum.md": {
         "filename": "agile_scrum.md",
         "fileLink": "classnotes/week_08/day_4/agile_scrum/agile_scrum.md",
-        "symlink": "/app/docs/codeclan/week_08/day_4/agile_scrum.md",
+        "symlink": "app/docs/codeclan/week_08/day_4/agile_scrum.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -970,7 +970,7 @@
     "classnotes/week_08/day_4/lab_advanced_git/lab_advanced_git.md": {
         "filename": "lab_advanced_git.md",
         "fileLink": "classnotes/week_08/day_4/lab_advanced_git/lab_advanced_git.md",
-        "symlink": "/app/docs/codeclan/week_08/day_4/lab_advanced_git.md",
+        "symlink": "app/docs/codeclan/week_08/day_4/lab_advanced_git.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -978,7 +978,7 @@
     "classnotes/week_08/day_4/projects/briefs/browser_game.md": {
         "filename": "browser_game.md",
         "fileLink": "classnotes/week_08/day_4/projects/briefs/browser_game.md",
-        "symlink": "/app/docs/codeclan/week_08/day_4/browser_game.md",
+        "symlink": "app/docs/codeclan/week_08/day_4/browser_game.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -986,7 +986,7 @@
     "classnotes/week_08/day_4/projects/briefs/co2_calculator.md": {
         "filename": "co2_calculator.md",
         "fileLink": "classnotes/week_08/day_4/projects/briefs/co2_calculator.md",
-        "symlink": "/app/docs/codeclan/week_08/day_4/co2_calculator.md",
+        "symlink": "app/docs/codeclan/week_08/day_4/co2_calculator.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -994,7 +994,7 @@
     "classnotes/week_08/day_4/projects/briefs/education_app.md": {
         "filename": "education_app.md",
         "fileLink": "classnotes/week_08/day_4/projects/briefs/education_app.md",
-        "symlink": "/app/docs/codeclan/week_08/day_4/education_app.md",
+        "symlink": "app/docs/codeclan/week_08/day_4/education_app.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1002,7 +1002,7 @@
     "classnotes/week_08/day_4/projects/briefs/shares_app.md": {
         "filename": "shares_app.md",
         "fileLink": "classnotes/week_08/day_4/projects/briefs/shares_app.md",
-        "symlink": "/app/docs/codeclan/week_08/day_4/shares_app.md",
+        "symlink": "app/docs/codeclan/week_08/day_4/shares_app.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1010,7 +1010,7 @@
     "classnotes/week_08/day_4/projects/consider_the_user.md": {
         "filename": "consider_the_user.md",
         "fileLink": "classnotes/week_08/day_4/projects/consider_the_user.md",
-        "symlink": "/app/docs/codeclan/week_08/day_4/consider_the_user.md",
+        "symlink": "app/docs/codeclan/week_08/day_4/consider_the_user.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1018,7 +1018,7 @@
     "classnotes/week_08/day_4/projects/hw_pda.md": {
         "filename": "hw_pda.md",
         "fileLink": "classnotes/week_08/day_4/projects/hw_pda.md",
-        "symlink": "/app/docs/codeclan/week_08/day_4/hw_pda.md",
+        "symlink": "app/docs/codeclan/week_08/day_4/hw_pda.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1026,7 +1026,7 @@
     "classnotes/week_08/day_4/projects/project_guidelines.md": {
         "filename": "project_guidelines.md",
         "fileLink": "classnotes/week_08/day_4/projects/project_guidelines.md",
-        "symlink": "/app/docs/codeclan/week_08/day_4/project_guidelines.md",
+        "symlink": "app/docs/codeclan/week_08/day_4/project_guidelines.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1034,7 +1034,7 @@
     "classnotes/week_11/day_1/classes_homework/single_class_homework.md": {
         "filename": "single_class_homework.md",
         "fileLink": "classnotes/week_11/day_1/classes_homework/single_class_homework.md",
-        "symlink": "/app/docs/codeclan/week_11/day_1/single_class_homework.md",
+        "symlink": "app/docs/codeclan/week_11/day_1/single_class_homework.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1042,7 +1042,7 @@
     "classnotes/week_11/day_1/intro/intro.md": {
         "filename": "intro.md",
         "fileLink": "classnotes/week_11/day_1/intro/intro.md",
-        "symlink": "/app/docs/codeclan/week_11/day_1/intro.md",
+        "symlink": "app/docs/codeclan/week_11/day_1/intro.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1050,7 +1050,7 @@
     "classnotes/week_11/day_1/single_class/oo_single_class.md": {
         "filename": "oo_single_class.md",
         "fileLink": "classnotes/week_11/day_1/single_class/oo_single_class.md",
-        "symlink": "/app/docs/codeclan/week_11/day_1/oo_single_class.md",
+        "symlink": "app/docs/codeclan/week_11/day_1/oo_single_class.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1058,7 +1058,7 @@
     "classnotes/week_11/day_1/types/reference_types.md": {
         "filename": "reference_types.md",
         "fileLink": "classnotes/week_11/day_1/types/reference_types.md",
-        "symlink": "/app/docs/codeclan/week_11/day_1/reference_types.md",
+        "symlink": "app/docs/codeclan/week_11/day_1/reference_types.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1066,7 +1066,7 @@
     "classnotes/week_11/day_1/types/types.md": {
         "filename": "types.md",
         "fileLink": "classnotes/week_11/day_1/types/types.md",
-        "symlink": "/app/docs/codeclan/week_11/day_1/types.md",
+        "symlink": "app/docs/codeclan/week_11/day_1/types.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1074,7 +1074,7 @@
     "classnotes/week_11/day_2/arrays_arraylists/arrays_and_arraylists.md": {
         "filename": "arrays_and_arraylists.md",
         "fileLink": "classnotes/week_11/day_2/arrays_arraylists/arrays_and_arraylists.md",
-        "symlink": "/app/docs/codeclan/week_11/day_2/arrays_and_arraylists.md",
+        "symlink": "app/docs/codeclan/week_11/day_2/arrays_and_arraylists.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1082,7 +1082,7 @@
     "classnotes/week_11/day_2/classes_homework/classes_homework.md": {
         "filename": "classes_homework.md",
         "fileLink": "classnotes/week_11/day_2/classes_homework/classes_homework.md",
-        "symlink": "/app/docs/codeclan/week_11/day_2/classes_homework.md",
+        "symlink": "app/docs/codeclan/week_11/day_2/classes_homework.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1090,7 +1090,7 @@
     "classnotes/week_11/day_2/hashmaps/hashmaps.md": {
         "filename": "hashmaps.md",
         "fileLink": "classnotes/week_11/day_2/hashmaps/hashmaps.md",
-        "symlink": "/app/docs/codeclan/week_11/day_2/hashmaps.md",
+        "symlink": "app/docs/codeclan/week_11/day_2/hashmaps.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1098,7 +1098,7 @@
     "classnotes/week_11/day_2/multiple_classes/multiple_classes.md": {
         "filename": "multiple_classes.md",
         "fileLink": "classnotes/week_11/day_2/multiple_classes/multiple_classes.md",
-        "symlink": "/app/docs/codeclan/week_11/day_2/multiple_classes.md",
+        "symlink": "app/docs/codeclan/week_11/day_2/multiple_classes.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1106,7 +1106,7 @@
     "classnotes/week_11/day_2/multiple_classes_lab/classes_lab.md": {
         "filename": "classes_lab.md",
         "fileLink": "classnotes/week_11/day_2/multiple_classes_lab/classes_lab.md",
-        "symlink": "/app/docs/codeclan/week_11/day_2/classes_lab.md",
+        "symlink": "app/docs/codeclan/week_11/day_2/classes_lab.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1114,7 +1114,7 @@
     "classnotes/week_11/day_3/abstract_classes/abstract_classes.md": {
         "filename": "abstract_classes.md",
         "fileLink": "classnotes/week_11/day_3/abstract_classes/abstract_classes.md",
-        "symlink": "/app/docs/codeclan/week_11/day_3/abstract_classes.md",
+        "symlink": "app/docs/codeclan/week_11/day_3/abstract_classes.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1122,7 +1122,7 @@
     "classnotes/week_11/day_3/debugging_homework/debugging_homework.md": {
         "filename": "debugging_homework.md",
         "fileLink": "classnotes/week_11/day_3/debugging_homework/debugging_homework.md",
-        "symlink": "/app/docs/codeclan/week_11/day_3/debugging_homework.md",
+        "symlink": "app/docs/codeclan/week_11/day_3/debugging_homework.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1130,7 +1130,7 @@
     "classnotes/week_11/day_3/employee_lab/employee_lab.md": {
         "filename": "employee_lab.md",
         "fileLink": "classnotes/week_11/day_3/employee_lab/employee_lab.md",
-        "symlink": "/app/docs/codeclan/week_11/day_3/employee_lab.md",
+        "symlink": "app/docs/codeclan/week_11/day_3/employee_lab.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1138,7 +1138,7 @@
     "classnotes/week_11/day_3/inheritance/inheritance.md": {
         "filename": "inheritance.md",
         "fileLink": "classnotes/week_11/day_3/inheritance/inheritance.md",
-        "symlink": "/app/docs/codeclan/week_11/day_3/inheritance.md",
+        "symlink": "app/docs/codeclan/week_11/day_3/inheritance.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1146,7 +1146,7 @@
     "classnotes/week_11/day_3/packages/packages.md": {
         "filename": "packages.md",
         "fileLink": "classnotes/week_11/day_3/packages/packages.md",
-        "symlink": "/app/docs/codeclan/week_11/day_3/packages.md",
+        "symlink": "app/docs/codeclan/week_11/day_3/packages.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1154,7 +1154,7 @@
     "classnotes/week_11/day_4/cc_towers/cc_towers.md": {
         "filename": "cc_towers.md",
         "fileLink": "classnotes/week_11/day_4/cc_towers/cc_towers.md",
-        "symlink": "/app/docs/codeclan/week_11/day_4/cc_towers.md",
+        "symlink": "app/docs/codeclan/week_11/day_4/cc_towers.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1162,7 +1162,7 @@
     "classnotes/week_11/day_4/enums/enums.md": {
         "filename": "enums.md",
         "fileLink": "classnotes/week_11/day_4/enums/enums.md",
-        "symlink": "/app/docs/codeclan/week_11/day_4/enums.md",
+        "symlink": "app/docs/codeclan/week_11/day_4/enums.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1170,7 +1170,7 @@
     "classnotes/week_11/weekend_homework/airline_homework/airline.md": {
         "filename": "airline.md",
         "fileLink": "classnotes/week_11/weekend_homework/airline_homework/airline.md",
-        "symlink": "/app/docs/codeclan/week_11/weekend_homework/airline.md",
+        "symlink": "app/docs/codeclan/week_11/weekend_homework/airline.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1178,7 +1178,7 @@
     "classnotes/week_12/day_1/creating_interfaces/creating_interfaces.md": {
         "filename": "creating_interfaces.md",
         "fileLink": "classnotes/week_12/day_1/creating_interfaces/creating_interfaces.md",
-        "symlink": "/app/docs/codeclan/week_12/day_1/creating_interfaces.md",
+        "symlink": "app/docs/codeclan/week_12/day_1/creating_interfaces.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1186,7 +1186,7 @@
     "classnotes/week_12/day_1/homework/theme_park_homework.md": {
         "filename": "theme_park_homework.md",
         "fileLink": "classnotes/week_12/day_1/homework/theme_park_homework.md",
-        "symlink": "/app/docs/codeclan/week_12/day_1/theme_park_homework.md",
+        "symlink": "app/docs/codeclan/week_12/day_1/theme_park_homework.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1194,7 +1194,7 @@
     "classnotes/week_12/day_1/interfaces_vs_abstract_classes/interfaces_vs_abstract_classes.md": {
         "filename": "interfaces_vs_abstract_classes.md",
         "fileLink": "classnotes/week_12/day_1/interfaces_vs_abstract_classes/interfaces_vs_abstract_classes.md",
-        "symlink": "/app/docs/codeclan/week_12/day_1/interfaces_vs_abstract_classes.md",
+        "symlink": "app/docs/codeclan/week_12/day_1/interfaces_vs_abstract_classes.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1202,7 +1202,7 @@
     "classnotes/week_12/day_1/polymorphism/polymorphism.md": {
         "filename": "polymorphism.md",
         "fileLink": "classnotes/week_12/day_1/polymorphism/polymorphism.md",
-        "symlink": "/app/docs/codeclan/week_12/day_1/polymorphism.md",
+        "symlink": "app/docs/codeclan/week_12/day_1/polymorphism.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1210,7 +1210,7 @@
     "classnotes/week_12/day_1/polymorphism_lab/polymorphism_lab.md": {
         "filename": "polymorphism_lab.md",
         "fileLink": "classnotes/week_12/day_1/polymorphism_lab/polymorphism_lab.md",
-        "symlink": "/app/docs/codeclan/week_12/day_1/polymorphism_lab.md",
+        "symlink": "app/docs/codeclan/week_12/day_1/polymorphism_lab.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1218,7 +1218,7 @@
     "classnotes/week_12/day_2/composition/code/composition/composition.md": {
         "filename": "composition.md",
         "fileLink": "classnotes/week_12/day_2/composition/code/composition/composition.md",
-        "symlink": "/app/docs/codeclan/week_12/day_2/composition.md",
+        "symlink": "app/docs/codeclan/week_12/day_2/composition.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1226,7 +1226,7 @@
     "classnotes/week_12/day_2/composition/code/composition_lab/composition_lab.md": {
         "filename": "composition_lab.md",
         "fileLink": "classnotes/week_12/day_2/composition/code/composition_lab/composition_lab.md",
-        "symlink": "/app/docs/codeclan/week_12/day_2/composition_lab.md",
+        "symlink": "app/docs/codeclan/week_12/day_2/composition_lab.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1234,7 +1234,7 @@
     "classnotes/week_12/day_2/polymorphism_composition_homework/polymorphism_composition_quiz.md": {
         "filename": "polymorphism_composition_quiz.md",
         "fileLink": "classnotes/week_12/day_2/polymorphism_composition_homework/polymorphism_composition_quiz.md",
-        "symlink": "/app/docs/codeclan/week_12/day_2/polymorphism_composition_quiz.md",
+        "symlink": "app/docs/codeclan/week_12/day_2/polymorphism_composition_quiz.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1242,7 +1242,7 @@
     "classnotes/week_12/day_2/polymorphism_composition_homework/polymorphism_composition_quiz_with_answers.md": {
         "filename": "polymorphism_composition_quiz_with_answers.md",
         "fileLink": "classnotes/week_12/day_2/polymorphism_composition_homework/polymorphism_composition_quiz_with_answers.md",
-        "symlink": "/app/docs/codeclan/week_12/day_2/polymorphism_composition_quiz_with_answers.md",
+        "symlink": "app/docs/codeclan/week_12/day_2/polymorphism_composition_quiz_with_answers.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1250,7 +1250,7 @@
     "classnotes/week_12/day_3/algorithms_flipped_hw/algorithms.md": {
         "filename": "algorithms.md",
         "fileLink": "classnotes/week_12/day_3/algorithms_flipped_hw/algorithms.md",
-        "symlink": "/app/docs/codeclan/week_12/day_3/algorithms.md",
+        "symlink": "app/docs/codeclan/week_12/day_3/algorithms.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1258,7 +1258,7 @@
     "classnotes/week_12/day_3/fantasy_adventure_lab/fantasy_adventure_lab.md": {
         "filename": "fantasy_adventure_lab.md",
         "fileLink": "classnotes/week_12/day_3/fantasy_adventure_lab/fantasy_adventure_lab.md",
-        "symlink": "/app/docs/codeclan/week_12/day_3/fantasy_adventure_lab.md",
+        "symlink": "app/docs/codeclan/week_12/day_3/fantasy_adventure_lab.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1266,7 +1266,7 @@
     "classnotes/week_12/day_3/fantasy_adventure_lab/fantasy_lab_detailed.md": {
         "filename": "fantasy_lab_detailed.md",
         "fileLink": "classnotes/week_12/day_3/fantasy_adventure_lab/fantasy_lab_detailed.md",
-        "symlink": "/app/docs/codeclan/week_12/day_3/fantasy_lab_detailed.md",
+        "symlink": "app/docs/codeclan/week_12/day_3/fantasy_lab_detailed.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1274,7 +1274,7 @@
     "classnotes/week_12/extra_material/lab_patterns_streams_research/lab_patterns_streams_research.md": {
         "filename": "lab_patterns_streams_research.md",
         "fileLink": "classnotes/week_12/extra_material/lab_patterns_streams_research/lab_patterns_streams_research.md",
-        "symlink": "/app/docs/codeclan/week_12/extra_material/lab_patterns_streams_research.md",
+        "symlink": "app/docs/codeclan/week_12/extra_material/lab_patterns_streams_research.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1282,7 +1282,7 @@
     "classnotes/week_12/extra_material/singleton_pattern/singleton_pattern.md": {
         "filename": "singleton_pattern.md",
         "fileLink": "classnotes/week_12/extra_material/singleton_pattern/singleton_pattern.md",
-        "symlink": "/app/docs/codeclan/week_12/extra_material/singleton_pattern.md",
+        "symlink": "app/docs/codeclan/week_12/extra_material/singleton_pattern.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1290,7 +1290,7 @@
     "classnotes/week_12/extra_material/streams/streams.md": {
         "filename": "streams.md",
         "fileLink": "classnotes/week_12/extra_material/streams/streams.md",
-        "symlink": "/app/docs/codeclan/week_12/extra_material/streams.md",
+        "symlink": "app/docs/codeclan/week_12/extra_material/streams.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1298,7 +1298,7 @@
     "classnotes/week_12/extra_material/try_catch_exceptions/try_catch_notes.md": {
         "filename": "try_catch_notes.md",
         "fileLink": "classnotes/week_12/extra_material/try_catch_exceptions/try_catch_notes.md",
-        "symlink": "/app/docs/codeclan/week_12/extra_material/try_catch_notes.md",
+        "symlink": "app/docs/codeclan/week_12/extra_material/try_catch_notes.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1306,7 +1306,7 @@
     "classnotes/week_12/weekend_homework/homework.md": {
         "filename": "homework.md",
         "fileLink": "classnotes/week_12/weekend_homework/homework.md",
-        "symlink": "/app/docs/codeclan/week_12/weekend_homework/homework.md",
+        "symlink": "app/docs/codeclan/week_12/weekend_homework/homework.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1314,7 +1314,7 @@
     "classnotes/week_13/day_1/1_intro_to_spring/intro_to_spring.md": {
         "filename": "intro_to_spring.md",
         "fileLink": "classnotes/week_13/day_1/1_intro_to_spring/intro_to_spring.md",
-        "symlink": "/app/docs/codeclan/week_13/day_1/intro_to_spring.md",
+        "symlink": "app/docs/codeclan/week_13/day_1/intro_to_spring.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1322,7 +1322,7 @@
     "classnotes/week_13/day_1/2_annotating_class/annotating_class.md": {
         "filename": "annotating_class.md",
         "fileLink": "classnotes/week_13/day_1/2_annotating_class/annotating_class.md",
-        "symlink": "/app/docs/codeclan/week_13/day_1/annotating_class.md",
+        "symlink": "app/docs/codeclan/week_13/day_1/annotating_class.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1330,7 +1330,7 @@
     "classnotes/week_13/day_1/3_controller_and_jpa_repository_queries/controller_and_jpa_repository_queries.md": {
         "filename": "controller_and_jpa_repository_queries.md",
         "fileLink": "classnotes/week_13/day_1/3_controller_and_jpa_repository_queries/controller_and_jpa_repository_queries.md",
-        "symlink": "/app/docs/codeclan/week_13/day_1/controller_and_jpa_repository_queries.md",
+        "symlink": "app/docs/codeclan/week_13/day_1/controller_and_jpa_repository_queries.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1338,7 +1338,7 @@
     "classnotes/week_13/day_1/flipped_lessons_relationships/flipped_lesson_many_to_many.md": {
         "filename": "flipped_lesson_many_to_many.md",
         "fileLink": "classnotes/week_13/day_1/flipped_lessons_relationships/flipped_lesson_many_to_many.md",
-        "symlink": "/app/docs/codeclan/week_13/day_1/flipped_lesson_many_to_many.md",
+        "symlink": "app/docs/codeclan/week_13/day_1/flipped_lesson_many_to_many.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1346,7 +1346,7 @@
     "classnotes/week_13/day_1/flipped_lessons_relationships/flipped_lesson_one_to_many.md": {
         "filename": "flipped_lesson_one_to_many.md",
         "fileLink": "classnotes/week_13/day_1/flipped_lessons_relationships/flipped_lesson_one_to_many.md",
-        "symlink": "/app/docs/codeclan/week_13/day_1/flipped_lesson_one_to_many.md",
+        "symlink": "app/docs/codeclan/week_13/day_1/flipped_lesson_one_to_many.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1354,7 +1354,7 @@
     "classnotes/week_13/day_1/flipped_lessons_relationships/flipped_lessons.md": {
         "filename": "flipped_lessons.md",
         "fileLink": "classnotes/week_13/day_1/flipped_lessons_relationships/flipped_lessons.md",
-        "symlink": "/app/docs/codeclan/week_13/day_1/flipped_lessons.md",
+        "symlink": "app/docs/codeclan/week_13/day_1/flipped_lessons.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1362,7 +1362,7 @@
     "classnotes/week_13/day_1/lab_bootstrap_new_spring_project/lab_bootstrap_new_spring_project.md": {
         "filename": "lab_bootstrap_new_spring_project.md",
         "fileLink": "classnotes/week_13/day_1/lab_bootstrap_new_spring_project/lab_bootstrap_new_spring_project.md",
-        "symlink": "/app/docs/codeclan/week_13/day_1/lab_bootstrap_new_spring_project.md",
+        "symlink": "app/docs/codeclan/week_13/day_1/lab_bootstrap_new_spring_project.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1370,7 +1370,7 @@
     "classnotes/week_13/day_2/1_lab_relationships/lab_relationships.md": {
         "filename": "lab_relationships.md",
         "fileLink": "classnotes/week_13/day_2/1_lab_relationships/lab_relationships.md",
-        "symlink": "/app/docs/codeclan/week_13/day_2/lab_relationships.md",
+        "symlink": "app/docs/codeclan/week_13/day_2/lab_relationships.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1378,7 +1378,7 @@
     "classnotes/week_13/day_2/2_rest_controllers_with_data/2_rest_controllers_with_data.md": {
         "filename": "2_rest_controllers_with_data.md",
         "fileLink": "classnotes/week_13/day_2/2_rest_controllers_with_data/2_rest_controllers_with_data.md",
-        "symlink": "/app/docs/codeclan/week_13/day_2/2_rest_controllers_with_data.md",
+        "symlink": "app/docs/codeclan/week_13/day_2/2_rest_controllers_with_data.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1386,7 +1386,7 @@
     "classnotes/week_13/day_2/3_resful_controllers_create/restful_controllers_create.md": {
         "filename": "restful_controllers_create.md",
         "fileLink": "classnotes/week_13/day_2/3_resful_controllers_create/restful_controllers_create.md",
-        "symlink": "/app/docs/codeclan/week_13/day_2/restful_controllers_create.md",
+        "symlink": "app/docs/codeclan/week_13/day_2/restful_controllers_create.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1394,7 +1394,7 @@
     "classnotes/week_13/day_2/4_hw_files_and_folders/hw_files_and_folders.md": {
         "filename": "hw_files_and_folders.md",
         "fileLink": "classnotes/week_13/day_2/4_hw_files_and_folders/hw_files_and_folders.md",
-        "symlink": "/app/docs/codeclan/week_13/day_2/hw_files_and_folders.md",
+        "symlink": "app/docs/codeclan/week_13/day_2/hw_files_and_folders.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1402,7 +1402,7 @@
     "classnotes/week_13/day_3/1_simple_derived_queries/1_simple_derived_queries.md": {
         "filename": "1_simple_derived_queries.md",
         "fileLink": "classnotes/week_13/day_3/1_simple_derived_queries/1_simple_derived_queries.md",
-        "symlink": "/app/docs/codeclan/week_13/day_3/1_simple_derived_queries.md",
+        "symlink": "app/docs/codeclan/week_13/day_3/1_simple_derived_queries.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1410,7 +1410,7 @@
     "classnotes/week_13/day_3/2_advanced_derived_queries/2_advanced_derived_queries.md": {
         "filename": "2_advanced_derived_queries.md",
         "fileLink": "classnotes/week_13/day_3/2_advanced_derived_queries/2_advanced_derived_queries.md",
-        "symlink": "/app/docs/codeclan/week_13/day_3/2_advanced_derived_queries.md",
+        "symlink": "app/docs/codeclan/week_13/day_3/2_advanced_derived_queries.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1418,7 +1418,7 @@
     "classnotes/week_13/day_3/3_connect_queries_to_controllers/3_connect_queries_to_controllers.md": {
         "filename": "3_connect_queries_to_controllers.md",
         "fileLink": "classnotes/week_13/day_3/3_connect_queries_to_controllers/3_connect_queries_to_controllers.md",
-        "symlink": "/app/docs/codeclan/week_13/day_3/3_connect_queries_to_controllers.md",
+        "symlink": "app/docs/codeclan/week_13/day_3/3_connect_queries_to_controllers.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1426,7 +1426,7 @@
     "classnotes/week_13/day_3/4_lab_and_homework_whisky_tracker/4_lab_and_homework_whisky_tracker.md": {
         "filename": "4_lab_and_homework_whisky_tracker.md",
         "fileLink": "classnotes/week_13/day_3/4_lab_and_homework_whisky_tracker/4_lab_and_homework_whisky_tracker.md",
-        "symlink": "/app/docs/codeclan/week_13/day_3/4_lab_and_homework_whisky_tracker.md",
+        "symlink": "app/docs/codeclan/week_13/day_3/4_lab_and_homework_whisky_tracker.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1434,7 +1434,7 @@
     "classnotes/week_13/day_4/1_lab.md": {
         "filename": "1_lab.md",
         "fileLink": "classnotes/week_13/day_4/1_lab.md",
-        "symlink": "/app/docs/codeclan/week_13/day_4/1_lab.md",
+        "symlink": "app/docs/codeclan/week_13/day_4/1_lab.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1442,7 +1442,7 @@
     "classnotes/week_13/hw_es6_features/hw_es6_features.md": {
         "filename": "hw_es6_features.md",
         "fileLink": "classnotes/week_13/hw_es6_features/hw_es6_features.md",
-        "symlink": "/app/docs/codeclan/week_13/hw_es6_features/hw_es6_features.md",
+        "symlink": "app/docs/codeclan/week_13/hw_es6_features/hw_es6_features.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1450,7 +1450,7 @@
     "classnotes/week_13/hw_es6_features/javascript_destructuring/javascript_destructuring.md": {
         "filename": "javascript_destructuring.md",
         "fileLink": "classnotes/week_13/hw_es6_features/javascript_destructuring/javascript_destructuring.md",
-        "symlink": "/app/docs/codeclan/week_13/hw_es6_features/javascript_destructuring.md",
+        "symlink": "app/docs/codeclan/week_13/hw_es6_features/javascript_destructuring.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1458,7 +1458,7 @@
     "classnotes/week_14/day_1/1_react_intro/react_intro.md": {
         "filename": "react_intro.md",
         "fileLink": "classnotes/week_14/day_1/1_react_intro/react_intro.md",
-        "symlink": "/app/docs/codeclan/week_14/day_1/react_intro.md",
+        "symlink": "app/docs/codeclan/week_14/day_1/react_intro.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1466,7 +1466,7 @@
     "classnotes/week_14/day_1/2_state_and_props_piggy_bank/state_and_props_piggy_bank.md": {
         "filename": "state_and_props_piggy_bank.md",
         "fileLink": "classnotes/week_14/day_1/2_state_and_props_piggy_bank/state_and_props_piggy_bank.md",
-        "symlink": "/app/docs/codeclan/week_14/day_1/state_and_props_piggy_bank.md",
+        "symlink": "app/docs/codeclan/week_14/day_1/state_and_props_piggy_bank.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1474,7 +1474,7 @@
     "classnotes/week_14/day_1/3_multi_components_app_comments/multi_components_app_comments.md": {
         "filename": "multi_components_app_comments.md",
         "fileLink": "classnotes/week_14/day_1/3_multi_components_app_comments/multi_components_app_comments.md",
-        "symlink": "/app/docs/codeclan/week_14/day_1/multi_components_app_comments.md",
+        "symlink": "app/docs/codeclan/week_14/day_1/multi_components_app_comments.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1482,7 +1482,7 @@
     "classnotes/week_14/day_1/hw_multiple_components_imdb/hw_multiple_components_imdb.md": {
         "filename": "hw_multiple_components_imdb.md",
         "fileLink": "classnotes/week_14/day_1/hw_multiple_components_imdb/hw_multiple_components_imdb.md",
-        "symlink": "/app/docs/codeclan/week_14/day_1/hw_multiple_components_imdb.md",
+        "symlink": "app/docs/codeclan/week_14/day_1/hw_multiple_components_imdb.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1490,7 +1490,7 @@
     "classnotes/week_14/day_2/1_multi_component_app_comments_with_form/multi_component_app_comments_with_form.md": {
         "filename": "multi_component_app_comments_with_form.md",
         "fileLink": "classnotes/week_14/day_2/1_multi_component_app_comments_with_form/multi_component_app_comments_with_form.md",
-        "symlink": "/app/docs/codeclan/week_14/day_2/multi_component_app_comments_with_form.md",
+        "symlink": "app/docs/codeclan/week_14/day_2/multi_component_app_comments_with_form.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1498,7 +1498,7 @@
     "classnotes/week_14/day_2/2_using_side_effects/using-side-effects.md": {
         "filename": "using-side-effects.md",
         "fileLink": "classnotes/week_14/day_2/2_using_side_effects/using-side-effects.md",
-        "symlink": "/app/docs/codeclan/week_14/day_2/using-side-effects.md",
+        "symlink": "app/docs/codeclan/week_14/day_2/using-side-effects.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1506,7 +1506,7 @@
     "classnotes/week_14/day_2/3_api_calls_with_useeffect/api_calls_with_useeffect.md": {
         "filename": "api_calls_with_useeffect.md",
         "fileLink": "classnotes/week_14/day_2/3_api_calls_with_useeffect/api_calls_with_useeffect.md",
-        "symlink": "/app/docs/codeclan/week_14/day_2/api_calls_with_useeffect.md",
+        "symlink": "app/docs/codeclan/week_14/day_2/api_calls_with_useeffect.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1514,7 +1514,7 @@
     "classnotes/week_14/day_2/special_multi_components_lab/multi_components_lab.md": {
         "filename": "multi_components_lab.md",
         "fileLink": "classnotes/week_14/day_2/special_multi_components_lab/multi_components_lab.md",
-        "symlink": "/app/docs/codeclan/week_14/day_2/multi_components_lab.md",
+        "symlink": "app/docs/codeclan/week_14/day_2/multi_components_lab.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1522,7 +1522,7 @@
     "classnotes/week_14/day_3/lab.md": {
         "filename": "lab.md",
         "fileLink": "classnotes/week_14/day_3/lab.md",
-        "symlink": "/app/docs/codeclan/week_14/day_3/lab.md",
+        "symlink": "app/docs/codeclan/week_14/day_3/lab.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1530,7 +1530,7 @@
     "classnotes/week_14/day_4/1_react_router_intro/react_router.md": {
         "filename": "react_router.md",
         "fileLink": "classnotes/week_14/day_4/1_react_router_intro/react_router.md",
-        "symlink": "/app/docs/codeclan/week_14/day_4/react_router.md",
+        "symlink": "app/docs/codeclan/week_14/day_4/react_router.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1538,7 +1538,7 @@
     "classnotes/week_14/projects/project_brief.md": {
         "filename": "project_brief.md",
         "fileLink": "classnotes/week_14/projects/project_brief.md",
-        "symlink": "/app/docs/codeclan/week_14/projects/project_brief.md",
+        "symlink": "app/docs/codeclan/week_14/projects/project_brief.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""
@@ -1546,7 +1546,7 @@
     "classnotes/week_14/projects/spring_cors_config.md": {
         "filename": "spring_cors_config.md",
         "fileLink": "classnotes/week_14/projects/spring_cors_config.md",
-        "symlink": "/app/docs/codeclan/week_14/projects/spring_cors_config.md",
+        "symlink": "app/docs/codeclan/week_14/projects/spring_cors_config.md",
         "start_code": "",
         "end_code": "",
         "youtube_link": ""

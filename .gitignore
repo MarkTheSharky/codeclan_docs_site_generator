@@ -2,7 +2,7 @@ node_modules
 .temp
 .cache
 .vscode
-app/docs/codeclan/
-!/app/docs/codeclan/.gitkeep
+app/docs/codeclan/*
+!app/docs/codeclan/.gitkeep
 classnotes/*
 !classnotes/.gitkeep
