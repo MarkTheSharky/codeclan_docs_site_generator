@@ -1,6 +1,6 @@
 const fs = require('fs')
 const pathModule = require('path')
-const fileList = require('./markdownFileList.json')
+const fileList = require('./files.json')
 
 function makeSymLinks(path) {
 

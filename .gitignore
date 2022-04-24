@@ -6,4 +6,4 @@ app/docs/codeclan/*
 !app/docs/codeclan/.gitkeep
 /classnotes/*
 !classnotes/.gitkeep
-markdownFileList.json
+files.json
