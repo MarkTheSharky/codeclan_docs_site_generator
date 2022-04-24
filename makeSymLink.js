@@ -2,7 +2,7 @@ const fs = require('fs')
 const pathModule = require('path')
 const fileList = require('./markdownFileList.json')
 
-const makeFileObject = (path) => {
+function makeSymLinks(path) {
 
     fs.readdirSync(path).forEach(file => {
 
@@ -10,7 +10,7 @@ const makeFileObject = (path) => {
 
         // Handle if directory
         if (stat.isDirectory()) {
-            makeFileObject(`${path}/${file}`)
+            makeSymLinks(`${path}/${file}`)
         }
 
         // Handle if a file
@@ -46,4 +46,21 @@ const makeFileObject = (path) => {
     })
 }
 
-makeFileObject('classnotes')
+function makeReadme(path) {
+
+    fs.readdirSync(path).forEach(file => {
+        const readme = `${path}/${file}/README.md`
+        if (!fs.existsSync(readme) && fs.statSync(`${path}/${file}`).isDirectory()) {
+            fs.writeFile(readme, '', (err) => {
+                if (err) {
+                    console.log(err);
+                } else {
+                    console.log('README files created succesfully.')
+                }
+            })
+        }
+    })
+}
+
+makeSymLinks('classnotes')
+makeReadme('app/docs/codeclan')
