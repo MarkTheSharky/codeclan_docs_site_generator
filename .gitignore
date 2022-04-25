@@ -4,5 +4,6 @@ node_modules
 .vscode
 app/docs/codeclan/*
 !app/docs/codeclan/.gitkeep
-classnotes/*
+/classnotes/*
 !classnotes/.gitkeep
+files.json

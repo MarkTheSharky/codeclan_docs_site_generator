@@ -1,5 +1,4 @@
 const fs = require('fs')
-// const markdownFileList = require('./markdownFileList.json')
 
 function renameRootFolder(path) { // This needs to be promised(??) based incase it runs to slow
 
@@ -81,7 +80,7 @@ function makeFileObject(path) {
 
 
 
-    fs.writeFileSync('markdownFileList.json', JSON.stringify(fileList), (err) => {
+    fs.writeFileSync('files.json', JSON.stringify(fileList), (err) => {
         if (err) {
             console.error(err.message);return;
         }
@@ -91,6 +90,5 @@ function makeFileObject(path) {
 }
 
 
-
-// renameRootFolder('classnotes')
+renameRootFolder('classnotes')
 makeFileObject('classnotes')
