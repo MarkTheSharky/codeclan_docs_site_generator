@@ -23,12 +23,15 @@ const readRoot = (path) => {
 }
 
 
-const readDir = (path, rootFolders) => {
+const readDir = (path, rootFolders = null) => {
 
-    let root;
-    if (rootFolders) {
-      root = rootFolders
-    }
+    // let root;
+    // if (rootFolders) {
+    //   root = rootFolders
+    // }
+
+  console.log(rootFolders);
+
 
     const fileArray = [];
 
@@ -61,7 +64,7 @@ const readDir = (path, rootFolders) => {
       }
     })
     
-    console.log(fileArray);
+    // console.log(fileArray);
     return fileArray;
 }
 
