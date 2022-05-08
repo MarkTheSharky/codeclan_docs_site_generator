@@ -1,8 +1,5 @@
 const fs = require('fs')
 
-
-const fileList = {} // Make function makeFileObject below promise(??) based fileList can go inside function?
-
 function makeFileObject(path) {
 
     fs.readdirSync(path).forEach(file => {
@@ -33,16 +30,16 @@ function makeFileObject(path) {
             }
         }
     })
-
-
-
-    fs.writeFileSync('files.json', JSON.stringify(fileList), (err) => {
-        if (err) {
-            console.error(err.message);return;
-        }
-        console.log('Files written to file succesfully');
-    })
-
 }
 
-// makeFileObject('classnotes')
+const fileList = {}
+
+function makeJSON(path) {
+
+    makeFileObject(path)
+
+    fs.writeFileSync('files.json', JSON.stringify(fileList, null, 4))
+    console.log('Files JSON written succesfully');
+}
+
+makeJSON('classnotes')
