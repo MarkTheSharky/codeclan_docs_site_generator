@@ -1,28 +1,28 @@
 const fs = require('fs')
 
-function makeFileObject(path) {
+function makeFileObject(filepath) {
 
-    fs.readdirSync(path).forEach(file => {
+    fs.readdirSync(filepath).forEach(file => {
 
-        const stat = fs.statSync(`${path}/${file}`)
+        const stat = fs.statSync(`${filepath}/${file}`)
 
         // Handle if directory
         if (stat.isDirectory()) {
-            makeFileObject(`${path}/${file}`)
+            makeFileObject(`${filepath}/${file}`)
         }
 
         // Handle if a file
         if (stat.isFile() && file.endsWith('.md') && file.toLowerCase() !== 'readme.md') {
 
-            if (fileList[`${path}/${file}`]) {
+            if (fileList[`${filepath}/${file}`]) {
                 console.log('Duplicate file name warning: ', file)
             }
 
-            const symlink = `${path}/${file}`.substring(0, `${path}/${file}`.indexOf('/', 19)) + `/${file}`
+            const symlink = `${filepath}/${file}`.substring(0, `${filepath}/${file}`.indexOf('/', 19)) + `/${file}`
             
-            fileList[`${path}/${file}`] = {
+            fileList[`${filepath}/${file}`] = {
                 'filename': file,
-                'fileLink': `${path}/${file}`,
+                'fileLink': `${filepath}/${file}`,
                 'symlink': 'app/docs/codeclan' + symlink.slice(10),
                 'start_code': '',
                 'end_code': '',
@@ -34,12 +34,12 @@ function makeFileObject(path) {
 
 const fileList = {}
 
-function makeJSON(path) {
+function makeJSON(filepath) {
 
-    makeFileObject(path)
+    makeFileObject(filepath)
 
     fs.writeFileSync('files.json', JSON.stringify(fileList, null, 4))
-    console.log('Files JSON written succesfully');
+    console.log('Files JSON written successfully');
 }
 
 makeJSON('classnotes')

@@ -1,17 +1,18 @@
 const fs = require('fs')
 
 
-function prepareFiles(path) {
+function prepareFiles(filepath) {
 
 // Move week folders to '/classnotes/' root
-    const classnotesFolder = fs.readdirSync(path).filter(file => file.charAt(0) !== '.')
+
+    const classnotesFolder = fs.readdirSync(filepath).filter(file => file.charAt(0) !== '.')
 
     if (classnotesFolder.length === 1) {
-        const folders = fs.readdirSync(`${path}/${classnotesFolder}`)
+        const folders = fs.readdirSync(`${filepath}/${classnotesFolder}`)
 
         folders.forEach(folder => {
-            const oldPath = `${__dirname}/${path}/${classnotesFolder}/${folder}`
-            const newPath = `${__dirname}/${path}/${folder}`
+            const oldPath = `${__dirname}/${filepath}/${classnotesFolder}/${folder}`
+            const newPath = `${__dirname}/${filepath}/${folder}`
             fs.renameSync(oldPath, newPath)
         })
     } else {
@@ -22,14 +23,14 @@ function prepareFiles(path) {
 // Remove old root folder
 
     if (classnotesFolder.length === 1) {
-        fs.rmSync(`${path}/${classnotesFolder}`, { recursive: true })
+        fs.rmSync(`${filepath}/${classnotesFolder}`, { recursive: true })
         console.log(`Removed ${classnotesFolder} folder`);
     }
 
 // Remove .git folder
 
-    if (fs.existsSync(`${path}/.git`)) {
-        fs.rmSync(`${path}/.git`, {recursive: true})
+    if (fs.existsSync(`${filepath}/.git`)) {
+        fs.rmSync(`${filepath}/.git`, {recursive: true})
         console.log('Removed .git folder');
     }
 

@@ -1,22 +1,22 @@
 const fs = require('fs')
-const pathModule = require('path')
+const path = require('path')
 const fileList = require('./files.json')
 
-function makeSymLinks(path) {
+function makeSymLinks(filepath) {
 
-    fs.readdirSync(path).forEach(file => {
+    fs.readdirSync(filepath).forEach(file => {
 
-        const stat = fs.statSync(`${path}/${file}`)
+        const stat = fs.statSync(`${filepath}/${file}`)
 
         // Handle if directory
         if (stat.isDirectory()) {
-            makeSymLinks(`${path}/${file}`)
+            makeSymLinks(`${filepath}/${file}`)
         }
 
         // Handle if a file
         if (stat.isFile() && file.endsWith('.md') && file.toLowerCase() !== 'readme.md') {
 
-            const tempDir = `${path}/${file}`.substring(0, `${path}/${file}`.indexOf('/', 19))
+            const tempDir = `${filepath}/${file}`.substring(0, `${filepath}/${file}`.indexOf('/', 19))
             const mkdir = 'app/docs/codeclan/' + tempDir.slice(11)
 
             if (!fs.existsSync(mkdir)) {
@@ -29,8 +29,8 @@ function makeSymLinks(path) {
                 })
             }
 
-            const target = pathModule.join(__dirname, `${path}/${file}`)
-            const symlink = fileList[`${path}/${file}`]['symlink']
+            const target = path.join(__dirname, `${filepath}/${file}`)
+            const symlink = fileList[`${filepath}/${file}`]['symlink']
             // console.log(symlink);
 
             if (!fs.existsSync(symlink)) {
@@ -46,11 +46,11 @@ function makeSymLinks(path) {
     })
 }
 
-function makeReadme(path) {
+function makeReadme(filepath) {
 
-    fs.readdirSync(path).forEach(file => {
-        const readme = `${path}/${file}/README.md`
-        if (!fs.existsSync(readme) && fs.statSync(`${path}/${file}`).isDirectory()) {
+    fs.readdirSync(filepath).forEach(file => {
+        const readme = `${filepath}/${file}/README.md`
+        if (!fs.existsSync(readme) && fs.statSync(`${filepath}/${file}`).isDirectory()) {
             fs.writeFile(readme, '', (err) => {
                 if (err) {
                     console.log(err);
