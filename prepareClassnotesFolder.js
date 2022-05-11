@@ -24,7 +24,7 @@ function prepareFiles(filepath) {
 
     if (classnotesFolder.length === 1) {
         fs.rmSync(`${filepath}/${classnotesFolder}`, { recursive: true })
-        console.log(`Removed ${classnotesFolder} folder`);
+        console.log(`Removed empty ${classnotesFolder} folder`);
     }
 
 // Remove .git folder
