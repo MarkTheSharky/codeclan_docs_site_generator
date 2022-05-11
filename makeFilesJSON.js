@@ -22,11 +22,11 @@ function makeFileObject(filepath) {
             
             fileList[`${filepath}/${file}`] = {
                 'filename': file,
-                'fileLink': `${filepath}/${file}`,
-                'symlink': 'app/docs/codeclan' + symlink.slice(10),
-                'start_code': '',
-                'end_code': '',
-                'youtube_link': ''
+                'folder': filepath,
+                'copiedLocation': 'app/docs/codeclan' + symlink.slice(10),
+                // 'start_code': '',
+                // 'end_code': '',
+                // 'youtube_link': ''
             }
         }
     })
@@ -38,8 +38,14 @@ function makeJSON(filepath) {
 
     makeFileObject(filepath)
 
-    fs.writeFileSync('files.json', JSON.stringify(fileList, null, 4))
-    console.log('Files JSON written successfully');
+
+    if (!fs.existsSync('files.json')) {
+        fs.writeFileSync('files.json', JSON.stringify(fileList, null, 4))
+        console.log('Files JSON written successfully');
+    } else {
+        console.log('ERROR: files.JSON already exists');
+    }
+    
 }
 
 makeJSON('classnotes')
