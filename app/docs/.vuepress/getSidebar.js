@@ -5,33 +5,23 @@ const unwantedFolderNames = require('./utilities/unwantedFolderNames')
 
 const readRoot = (path) => {
 
-    let rootFolders = {}
+    const rootFolders = []
 
     fs.readdirSync(path).forEach(folder => {
 
       const stat = fs.statSync(`${path}/${folder}`)
 
       if (stat.isDirectory()) {
-        rootFolders[`/${folder}/`] = []
+        rootFolders.push(`${folder}`)
       }
 
     })
 
-  // console.log(rootFolders);
     return rootFolders
-
 }
 
 
-const readDir = (path, rootFolders = null) => {
-
-    // let root;
-    // if (rootFolders) {
-    //   root = rootFolders
-    // }
-
-  console.log(rootFolders);
-
+const readDir = (path) => {
 
     const fileArray = [];
 
@@ -39,17 +29,15 @@ const readDir = (path, rootFolders = null) => {
 
       const stat = fs.statSync(`${path}/${file}`)
 
-      if (unwantedFolderNames(file, path, stat)) {
+      if (`${path}/${file}` === `${path}/README.md`) {
         return
       }
 
       const fileInfo = {
         text: formatFolderName(file),
-        collapsible: true,
+        collapsible: false,
         children: []
       }
-
-      
 
       // Handle if directory
       if (stat.isDirectory()) {
@@ -63,14 +51,22 @@ const readDir = (path, rootFolders = null) => {
         fileArray.push(`${newPath}/${file}`)
       }
     })
-    
-    // console.log(fileArray);
+
     return fileArray;
 }
 
 
 
 module.exports = function buildSidebar(path) {
+
+  const sidebar = {}
   const rootFolders = readRoot(path)
-  return readDir(path, rootFolders);
+
+  rootFolders.forEach(dir => {
+    const sidebarArray = readDir(`${path}/${dir}`)
+    sidebarArray.unshift({"text": formatFolderName(dir)})
+    sidebar[`/codeclan/${dir}`] = sidebarArray
+  })
+  
+  return sidebar
 }
