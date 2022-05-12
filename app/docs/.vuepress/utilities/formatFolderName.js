@@ -1,4 +1,4 @@
-module.exports = function formatFolderName(folder, folderImage = true) {
+module.exports = function formatFolderName(folder) {
 
     let title = folder
 
@@ -10,9 +10,6 @@ module.exports = function formatFolderName(folder, folderImage = true) {
 
     title = title.replace(/(^|\s)[a-z]/g,function(f){return f.toUpperCase();});
 
-    if (folderImage) {
-      return `${title} 📁`
-    } else {
-      return title
-    }
-  }
+    return title
+
+}
