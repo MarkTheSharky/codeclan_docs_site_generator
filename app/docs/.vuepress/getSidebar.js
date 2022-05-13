@@ -1,7 +1,5 @@
 const fs = require("fs");
 const formatFolderName = require('./utilities/formatFolderName')
-const unwantedFolderNames = require('./utilities/unwantedFolderNames')
-
 
 const readRoot = (path) => {
 
