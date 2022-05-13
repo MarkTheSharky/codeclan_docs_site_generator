@@ -18,12 +18,12 @@ function makeFileObject(filepath) {
                 console.log('Duplicate file name warning: ', file)
             }
 
-            const symlink = `${filepath}/${file}`.substring(0, `${filepath}/${file}`.indexOf('/', 19)) + `/${file}`
+            const newLocation = filepath.substring(0, `${filepath}/`.indexOf('/', 19)).replace('classnotes', '/app/docs/codeclan')
             
             fileList[`${filepath}/${file}`] = {
                 'filename': file,
-                'folder': filepath,
-                'copiedLocation': 'app/docs/codeclan' + symlink.slice(10),
+                'folder': `/${filepath}`,
+                'copiedLocation': `${newLocation}/${file}`,
                 // 'start_code': '',
                 // 'end_code': '',
                 // 'youtube_link': ''
