@@ -14,19 +14,20 @@ function makeFileObject(filepath) {
         // Handle if a file
         if (stat.isFile() && file.endsWith('.md') && file.toLowerCase() !== 'readme.md') {
 
-            if (fileList[`${filepath}/${file}`]) {
+            const copiedFileLocation = `${filepath.substring(0, `${filepath}/`.indexOf('/', 19)).replace('classnotes', 'app/docs/codeclan')}/${file}`
+
+            if (fileList[copiedFileLocation]) {
                 console.log('Duplicate file name warning: ', file)
             }
 
-            const newLocation = filepath.substring(0, `${filepath}/`.indexOf('/', 19)).replace('classnotes', '/app/docs/codeclan')
-            
-            fileList[`${filepath}/${file}`] = {
-                'filename': file,
-                'folder': `/${filepath}`,
-                'copiedLocation': `${newLocation}/${file}`,
-                // 'start_code': '',
-                // 'end_code': '',
-                // 'youtube_link': ''
+            if (fs.existsSync(copiedFileLocation)) {
+                fileList[copiedFileLocation] = {
+                    'filename': file,
+                    'originalFolder': `/${filepath}/`,
+                    // 'start_code': '',
+                    // 'end_code': '',
+                    // 'youtube_link': ''
+                }
             }
         }
     })
