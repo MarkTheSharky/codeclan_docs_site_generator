@@ -15,11 +15,11 @@ keys.forEach(key => {
 const makeImageLink = (file, link) => {
   const i = link.indexOf('i')
   const sliced = link.slice(i);
-  return `../../../../..${files[file.replace('..', 'app')].originalFolder}${sliced}`
+  return `(../../../../..${files[file.replace('..', 'app')].originalFolder}${sliced})`
 }
 
 const imageFixRegEx = /!\[([^)]+|)\]\(([^)]+)\)/g
-const imageFixToFunction = (match, p1, p2, ...args) => match.replace(p2, makeImageLink(args.pop(), p2))
+const imageFixToFunction = (match, p1, p2, ...args) => match.replace(/\(([^)]+)\)/g, makeImageLink(args.pop(), p2))
 
 const options = {
   files: fileArray,
