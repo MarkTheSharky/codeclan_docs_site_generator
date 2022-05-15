@@ -15,23 +15,17 @@ keys.forEach(key => {
 const makeImageLink = (file, link) => {
   const i = link.indexOf('i')
   const sliced = link.slice(i);
-  return `${files[file.replace('..', 'app')].originalFolder}/${sliced}`
+  return `../../../../..${files[file.replace('..', 'app')].originalFolder}${sliced}`
 }
 
+const imageFixRegEx = '/!\[([^)]+)\]\(([^)]+)\)/g'
+const imageFixToFunction = '(match, p1, p2, ...args) => match.replace(p2, makeImageLink(args.pop(), p2))'
 
-// const options = {
-//   files: '../docs/codeclan/week_01/day_2/conditionals.md',
-//   from: /!\[([^)]+)\]\(([^)]+)\)/g,
-//   to: (match, p1, p2, ...args) => match.replace(p2, makeImageLink(args.pop(), p2)),
-//   countMatches: true,
-// }
-
-
-// Change </br> tags to <br>
+// Change </br> tags to <br> etc
 const options = {
   files: fileArray,
-  from: [/<\/br>/g, /{{ ... }}/g, /<%/g],
-  to: ['<br>', '<span v-pre>{{ ... }}</span>', '&lt;%'],
+  from: [/<\/br>/g, /{{ ... }}/g, /<%/g, imageFixRegEx],
+  to: ['<br>', '<span v-pre>{{ ... }}</span>', '&lt;%', imageFixToFunction],
   countMatches: true,
 }
 
@@ -39,7 +33,7 @@ const options = {
 replace(options)
   .then(changedFiles => {
     // fs.writeFileSync('files.json', JSON.stringify(changedFiles, null, 4))
-    console.log('Modified files:', JSON.stringify(changedFiles, null, 4));
+    // console.log('Modified files:', JSON.stringify(changedFiles, null, 4));
   })
   .catch(error => {
     console.error('Error occurred:', error);
