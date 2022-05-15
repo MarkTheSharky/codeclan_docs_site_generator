@@ -7,3 +7,4 @@ app/docs/codeclan/*
 /classnotes/*
 !classnotes/.gitkeep
 files.json
+/README.md

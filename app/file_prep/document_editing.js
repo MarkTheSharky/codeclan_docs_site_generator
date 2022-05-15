@@ -18,17 +18,15 @@ const makeImageLink = (file, link) => {
   return `../../../../..${files[file.replace('..', 'app')].originalFolder}${sliced}`
 }
 
-const imageFixRegEx = '/!\[([^)]+)\]\(([^)]+)\)/g'
-const imageFixToFunction = '(match, p1, p2, ...args) => match.replace(p2, makeImageLink(args.pop(), p2))'
+const imageFixRegEx = /!\[([^)]+|)\]\(([^)]+)\)/g
+const imageFixToFunction = (match, p1, p2, ...args) => match.replace(p2, makeImageLink(args.pop(), p2))
 
-// Change </br> tags to <br> etc
 const options = {
   files: fileArray,
   from: [/<\/br>/g, /{{ ... }}/g, /<%/g, imageFixRegEx],
   to: ['<br>', '<span v-pre>{{ ... }}</span>', '&lt;%', imageFixToFunction],
   countMatches: true,
 }
-
 
 replace(options)
   .then(changedFiles => {
