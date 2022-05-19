@@ -1,6 +1,6 @@
 const { defaultTheme } = require('vuepress')
 const { searchPlugin } = require('@vuepress/plugin-search')
- 
+
 const buildSidebar = require('./getSidebar.js')
 const makeNavbar = require('./getNavbar.js')
 
@@ -26,8 +26,6 @@ module.exports = {
   }),
 
   plugins: [
-    [
-      searchPlugin({maxSuggestions: 10,}),
-    ],
+    searchPlugin({maxSuggestions: 10}),
   ],
 }
