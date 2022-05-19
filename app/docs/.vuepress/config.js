@@ -1,3 +1,6 @@
+const { defaultTheme } = require('vuepress')
+const { searchPlugin } = require('@vuepress/plugin-search')
+ 
 const buildSidebar = require('./getSidebar.js')
 const makeNavbar = require('./getNavbar.js')
 
@@ -7,8 +10,7 @@ module.exports = {
   title: 'Course Notes',
 
   // theme and its config
-  theme: '@vuepress/theme-default',
-  themeConfig: {
+  theme: defaultTheme({
     logo: 'codeclan_logo_lighttheme.png',
     logoDark: 'codeclan_logo_darktheme.png',
     navbar: [
@@ -21,11 +23,11 @@ module.exports = {
     sidebar: buildSidebar('docs/codeclan'),
     lastUpdated: false,
     contributors: false,
-  },
+  }),
 
   plugins: [
     [
-      '@vuepress/plugin-search',
+      searchPlugin({maxSuggestions: 10,}),
     ],
   ],
 }
