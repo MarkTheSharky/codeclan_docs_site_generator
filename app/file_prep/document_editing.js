@@ -24,7 +24,7 @@ const imageFixToFunction = (match, p1, p2, ...args) => match.replace(/\(([^)]+)\
 const options = {
   files: fileArray,
   from: [/<\/br>/g, /{{ ... }}/g, /<%/g, imageFixRegEx],
-  to: ['<br>', '<span v-pre>{{ ... }}</span>', '&lt;%', imageFixToFunction],
+  to: ['<br>', '`{{ ... }}`', '&lt;%', imageFixToFunction],
   countMatches: true,
 }
 
