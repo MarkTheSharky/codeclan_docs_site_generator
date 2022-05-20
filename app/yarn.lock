@@ -7,6 +7,23 @@
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.17.8.tgz#2817fb9d885dd8132ea0f8eb615a6388cca1c240"
   integrity sha512-BoHhDJrJXqcg+ZL16Xv39H9n+AqJ4pcDrQBGZN+wHxIysrLZ3/ECwCBUch/1zUNhnsXULcONU3Ei5Hmkfk6kiQ==
 
+"@mr-hope/vuepress-shared@2.0.0-beta.66":
+  version "2.0.0-beta.66"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-shared/-/vuepress-shared-2.0.0-beta.66.tgz#d3ff0e291a4d71ef8e43e602174717f02d40b751"
+  integrity sha512-NUKA+6ARjFqVw+QhhPGZOXr7Kw8bH+1pzk7pmGQBMLIFhkTRPJQxKX9j1BMtq1hHlo2fBmHINYUpUgDzbvhYnQ==
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.45"
+    "@vuepress/plugin-git" "2.0.0-beta.45"
+    "@vuepress/plugin-theme-data" "2.0.0-beta.45"
+    "@vuepress/shared" "2.0.0-beta.45"
+    "@vuepress/utils" "2.0.0-beta.45"
+    chalk "^4.1.2"
+    dayjs "^1.11.2"
+    execa "^5.1.1"
+    ora "^5.4.1"
+    vue "^3.2.33"
+    vue-router "^4.0.15"
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
@@ -479,6 +496,11 @@ balanced-match@^1.0.0:
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
   integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
 
+balloon-css@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/balloon-css/-/balloon-css-1.2.0.tgz#53d3fb4051264a278a58713bed6865845dbcaf4b"
+  integrity sha512-urXwkHgwp6GsXVF+it01485Z2Cj4pnW02ICnM0TemOlkKmCNnDLmyy+ZZiRXBpwldUXO+aRNr7Hdia4CBvXJ5A==
+
 base64-js@^1.3.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
@@ -626,6 +648,11 @@ csstype@^2.6.8:
   version "2.6.20"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.20.tgz#9229c65ea0b260cf4d3d997cb06288e36a8d6dda"
   integrity sha512-/WwNkdXfckNgw6S5R125rrW8ez139lBHWouiBvX8dfMFtcn6V81REDqnH7+CRpRipfYlyU1CmOnOxrmGcFOjeA==
+
+dayjs@^1.11.2:
+  version "1.11.2"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.2.tgz#fa0f5223ef0d6724b3d8327134890cfe3d72fbe5"
+  integrity sha512-F4LXf1OeU9hrSYRPTTj/6FbO4HTjPKXvEIC1P2kcnFurViINCVk3ZV0xAS3XVx9MkMsXbbqlK6hjseaYbgKEHw==
 
 debug@^4.3.4:
   version "4.3.4"
@@ -1670,6 +1697,29 @@ vue@^3.2.33:
     "@vue/runtime-dom" "3.2.34"
     "@vue/server-renderer" "3.2.34"
     "@vue/shared" "3.2.34"
+
+vuepress-plugin-copy-code2@^2.0.0-beta.64:
+  version "2.0.0-beta.66"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-copy-code2/-/vuepress-plugin-copy-code2-2.0.0-beta.66.tgz#b30edb314ded4d5f58e5f716e36c36d80c1053e9"
+  integrity sha512-r1/pExqZjs/OenXso1f0OsMT2/yGqjDIQ059ckOPsek0j3n0gz0FRX6Qr8uRhTwZeNdeT2dP3FSeCRX81glM0Q==
+  dependencies:
+    "@mr-hope/vuepress-shared" "2.0.0-beta.66"
+    "@vuepress/client" "2.0.0-beta.45"
+    "@vuepress/utils" "2.0.0-beta.45"
+    balloon-css "^1.2.0"
+    vue "^3.2.33"
+    vue-router "^4.0.15"
+    vuepress-plugin-sass-palette "2.0.0-beta.66"
+
+vuepress-plugin-sass-palette@2.0.0-beta.66:
+  version "2.0.0-beta.66"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-sass-palette/-/vuepress-plugin-sass-palette-2.0.0-beta.66.tgz#5bf178f4f7410dea4ed56f877be8256e45fe7209"
+  integrity sha512-ehWIU/u0YfFCpN1282aEMAryuolNcl2JeglZ8ofSXJPw+51fFmYiFeUvQwRq7DDVsEcQOLhZ2E45/dIQlKCDrA==
+  dependencies:
+    "@mr-hope/vuepress-shared" "2.0.0-beta.66"
+    "@vuepress/utils" "2.0.0-beta.45"
+    chokidar "^3.5.3"
+    sass "^1.51.0"
 
 vuepress-vite@2.0.0-beta.45:
   version "2.0.0-beta.45"
