@@ -1,7 +1,6 @@
 ---
 home: true
 title: null
-subtitle: 'test'
 heroImage: 'codeclan_logo_lighttheme.png'
 heroImageDark: 'codeclan_logo_darktheme.png'
 heroText: null
@@ -9,6 +8,14 @@ tagline: null
 actions:
   - text: View Lessons
     link: /codeclan/
-    type: primary   
-footer: Configured by Mark Burns
+    type: primary
+footerHtml: true
+footer: Made by Codeclan alumni Mark Burns
+        <br>
+        <br>
+        <a href='https://github.com/MarkTheSharky'><img src='github_icon.svg' width='30' height='30'/></a>
+        <a href='https://www.linkedin.com/in/markburnsscotland/''><img src='linkedin_icon.svg' width='30' height='30'/></a>
+# 
 ---
+
+
