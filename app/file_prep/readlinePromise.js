@@ -35,9 +35,11 @@ function readFile() {
 
         if (lineCounter === 1) {
           files[doc.replace('..', 'app')].title = line
-          file.close()
-          resolve(line)
+          file.close(line)
         }
+      })
+      file.on('close', line => {
+        resolve(line)
       })
     })
   })
