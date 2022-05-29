@@ -2,35 +2,41 @@ const fs = require('fs')
 const replace = require('replace-in-file')
 const files = require('../../files.json')
 
+
 // Array of lesson files
-const fileArray = [];
 
-const keys = Object.keys(files)
-
-keys.forEach(key => {
-  fileArray.push(key.replace('app', '..'));
-})
-
-
-const makeImageLink = (file, link) => {
-  const i = link.indexOf('i')
-  const sliced = link.slice(i);
-  return `(../../../../..${files[file.replace('..', 'app')].originalFolder}${sliced})`
+const fileArray = (obj) => {
+  const keys = Object.keys(obj)
+  return keys.map(key => {
+    return key.replace('app', '..')
+  })
 }
 
-const imageFixRegEx = /!\[([^)]+|)\]\(([^)]+)\)/g
-const imageFixToFunction = (match, p1, p2, ...args) => match.replace(/\(([^)]+)\)/g, makeImageLink(args.pop(), p2))
+const imageLinkRegEx = /!\[([^)]+|)\]\(([^)]+)\)/g
+const imageLinkFix = (match, altText, link, ...args) => {
+
+  const slicedLink = link.slice(link.indexOf('i'));
+  const fileLink = args.pop()
+  const originalFolder = files[fileLink.replace('..', 'app')].originalFolder
+  const linkValid = link.startsWith('../../../../../')
+
+  if (linkValid) {
+    return match
+  } else {
+    return `![${altText}](../../../../..${originalFolder}${slicedLink})`
+  }
+}
 
 const options = {
-  files: fileArray,
-  from: [/<\/br>/g, /{{ ... }}/g, /<%/g, imageFixRegEx],
-  to: ['<br>', '`{{ ... }}`', '&lt;%', imageFixToFunction],
+  files: fileArray(files),
+  from: [/<\/br>/g, /{{ ... }}/g, /<%/g, imageLinkRegEx],
+  to: ['<br>', '`{{ ... }}`', '&lt;%', imageLinkFix],
   countMatches: true,
 }
 
 replace(options)
   .then(changedFiles => {
-    // fs.writeFileSync('files.json', JSON.stringify(changedFiles, null, 4))
+    // console.log('Completed files change');
     // console.log('Modified files:', JSON.stringify(changedFiles, null, 4));
   })
   .catch(error => {
