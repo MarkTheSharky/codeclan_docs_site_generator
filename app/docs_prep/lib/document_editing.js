@@ -1,6 +1,6 @@
 const fs = require('fs')
 const replace = require('replace-in-file')
-const files = require('../../files.json')
+const files = require('../data/files.json')
 
 
 // Array of lesson files
@@ -8,16 +8,17 @@ const files = require('../../files.json')
 const fileArray = (obj) => {
   const keys = Object.keys(obj)
   return keys.map(key => {
-    return key.replace('app', '..')
+    return key.replace('app', '../..')
   })
 }
+
 
 const imageLinkRegEx = /!\[([^)]+|)\]\(([^)]+)\)/g
 const imageLinkFix = (match, altText, link, ...args) => {
 
   const slicedLink = link.slice(link.indexOf('i'));
   const fileLink = args.pop()
-  const originalFolder = files[fileLink.replace('..', 'app')].originalFolder
+  const originalFolder = files[fileLink.replace('../..', 'app')].originalFolder
   const linkValid = link.startsWith('../../../../../')
 
   if (linkValid) {
@@ -26,6 +27,7 @@ const imageLinkFix = (match, altText, link, ...args) => {
     return `![${altText}](../../../../..${originalFolder}${slicedLink})`
   }
 }
+
 
 const options = {
   files: fileArray(files),
@@ -36,8 +38,7 @@ const options = {
 
 replace(options)
   .then(changedFiles => {
-    // console.log('Completed files change');
-    // console.log('Modified files:', JSON.stringify(changedFiles, null, 4));
+    console.log('Completed files change');
   })
   .catch(error => {
     console.error('Error occurred:', error);
