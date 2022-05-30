@@ -1,7 +1,6 @@
 const fs = require('fs')
-const files = require('../../files.json')
 const readline = require('readline');
-
+const files = require('../data/files.json')
 
 
 const fileArray = [];
@@ -9,23 +8,23 @@ const fileArray = [];
 const keys = Object.keys(files)
 
 keys.forEach(key => {
-  fileArray.push(key.replace('app', '..'));
+  fileArray.push(key.replace('app', '../..'));
 })
 
 
 function readFile() {
 
-  return fileArray.map(doc => {
+  return fileArray.map(file => {
 
     return new Promise(resolve => {
       
       let lineCounter = 0
 
-      const file = readline.createInterface({
-        input: fs.createReadStream(doc),
+      const rl = readline.createInterface({
+        input: fs.createReadStream(file),
       });
 
-      file.on('line', (line) => {
+      rl.on('line', (line) => {
             
         if (line[0] !== '#') {
           return
@@ -34,21 +33,22 @@ function readFile() {
         lineCounter++
 
         if (lineCounter === 1) {
-          files[doc.replace('..', 'app')].title = line
-          file.close(line)
+          files[file.replace('../..', 'app')].title = line
+          rl.close(line)
         }
       })
-      file.on('close', line => {
+
+      rl.on('close', line => {
         resolve(line)
       })
+
     })
   })
 }
 
-
 async function setTitle() {
   const done =  await Promise.all(readFile())
-  fs.writeFileSync('files.json', JSON.stringify(files, null, 4))
+  fs.writeFileSync('../data/files.json', JSON.stringify(files, null, 4))
 }
 
 setTitle()
