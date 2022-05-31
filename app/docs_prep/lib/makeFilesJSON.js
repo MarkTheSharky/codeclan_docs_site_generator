@@ -1,7 +1,10 @@
 const fs = require('fs')
+const path = require('path')
 
 
-function makeFileObject(filepath) {
+const fileList = {}
+
+function makeFileObject(filepath, codeclanFolder) {
 
     fs.readdirSync(filepath).forEach(file => {
 
@@ -9,24 +12,23 @@ function makeFileObject(filepath) {
 
         // Handle if directory
         if (stat.isDirectory()) {
-            makeFileObject(`${filepath}/${file}`)
+            makeFileObject(`${filepath}/${file}`, codeclanFolder)
         }
 
         // Handle if a file
         if (stat.isFile() && file.endsWith('.md') && file.toLowerCase() !== 'readme.md') {
 
-            const endIndex = `${filepath}/`.indexOf('/', 28)    // This gives us the index of '/' after the 'day_*' folder
-            const copiedFileLocation = `${filepath.substring(0, endIndex)   // This gives us the filepath up to and including the 'day_*' folder
-                                                  .replace('../../../classnotes', 'app/docs/codeclan')}/${file}`
+            const dirWeekDay = filepath.match(/(?<=classnotes)(\/.+?\/.+?\/)|(?<=classnotes)(\/.+)/gi)[0]
+            const copiedFileLocation = path.resolve(`${codeclanFolder}/${dirWeekDay}/${file}`)
 
-            if (fileList[copiedFileLocation]) {
+            if (fileList[copiedFileLocation.match(/app\/docs\/codeclan\/.*/gi)]) {
                 console.log('Duplicate file name warning: ', file)
             }
 
-            if (fs.existsSync(`../../../${copiedFileLocation}`)) {   // Check that file was copied to '/codeclan/' folder before adding to JSON
-                fileList[copiedFileLocation] = {
+            if (fs.existsSync(copiedFileLocation)) {   // Check that file was copied to '/codeclan/' folder before adding to JSON
+                fileList[copiedFileLocation.match(/app\/docs\/codeclan\/.*/gi)] = {
                     'filename': file,
-                    'originalFolder': `/${filepath.substring(9)}/`,
+                    'originalFolder': filepath.match(/classnotes.*/gi)[0],
                     'title': null,
                     'start_code': null,
                     'end_code': null,
@@ -37,14 +39,15 @@ function makeFileObject(filepath) {
     })
 }
 
-const fileList = {}
 
-function makeJSON(filepath) {
+function makeJSON(filepath, codeclanFolder) {
 
-    makeFileObject(filepath)
+    makeFileObject(filepath, codeclanFolder)
 
-    if (!fs.existsSync('../data/files.json')) {
-        fs.writeFileSync('../data/files.json', JSON.stringify(fileList, null, 4))
+    const jsonFile = path.resolve('./data/files.json')
+
+    if (!fs.existsSync(jsonFile)) {
+        fs.writeFileSync(jsonFile, JSON.stringify(fileList, null, 4))
         console.log('Files JSON written successfully');
     } else {
         console.log('ERROR: files.JSON already exists');
@@ -52,4 +55,4 @@ function makeJSON(filepath) {
     
 }
 
-makeJSON('../../../classnotes')
+module.exports = { makeJSON }

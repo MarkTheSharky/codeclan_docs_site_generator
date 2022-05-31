@@ -4,6 +4,7 @@ const path = require('path')
 const { copyLessonFiles } = require('./lib/copyLessons');
 const { handleClassnotes } = require('./lib/handleClassnotesFolder');
 const { createReadme } = require('./lib/createReadme');
+const { makeJSON } = require('./lib/makeFilesJSON');
 
 
 (async function prepareFiles() {
@@ -23,6 +24,10 @@ const { createReadme } = require('./lib/createReadme');
 
 // Create empty Readme.md files in week folders
 
-    createReadme(codeclan)
+    // createReadme(codeclan)
+
+// Create JSON with files detail
+
+    makeJSON(classnotes, codeclan)
 
 })()
