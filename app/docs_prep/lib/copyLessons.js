@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 
 
-function copyLessonFiles(filepath) {
+function copyLessonFiles(filepath, codeclanFolder) {
 
   fs.readdirSync(filepath).forEach(file => {
 
@@ -10,25 +10,24 @@ function copyLessonFiles(filepath) {
 
       // Handle if directory
       if (stat.isDirectory()) {
-          copyLessonFiles(`${filepath}/${file}`)
+          copyLessonFiles(`${filepath}/${file}`, codeclanFolder)
       }
 
       // Handle if a file
       if (stat.isFile() && file.endsWith('.md') && file.toLowerCase() !== 'readme.md') {
 
-          const tempDir = `${filepath}/${file}`.substring(0, `${filepath}/${file}`.indexOf('/', 19))
-          const newDir = 'app/docs/codeclan/' + tempDir.slice(11)
+          const dirWeekDay = filepath.match(/(?<=classnotes)(\/.+?\/.+?\/)|(?<=classnotes)(\/.+)/gi)[0]
+          const destinationDir = path.resolve(`${codeclanFolder}/${dirWeekDay}/`)
 
-          if (!fs.existsSync(newDir)) {
-              fs.mkdirSync(newDir, { recursive: true })
+          if (!fs.existsSync(destinationDir)) {
+              fs.mkdirSync(destinationDir, { recursive: true })
           }
 
-          const src = path.join(__dirname, `${filepath}/${file}`)
-          const newFile = `${filepath}/${file}`.substring(0, `${filepath}/${file}`.indexOf('/', 19)) + `/${file}`
-          const dest = 'app/docs/codeclan' + newFile.slice(10)
+          const fileSrc = path.join(`${filepath}/${file}`)
+          const fileDest = path.resolve(`${destinationDir}/${file}`)
 
-          if (!fs.existsSync(dest)) {
-              fs.copyFileSync(src, dest, fs.constants.COPYFILE_EXCL)
+          if (!fs.existsSync(fileDest)) {
+              fs.copyFileSync(fileSrc, fileDest, fs.constants.COPYFILE_EXCL)
           }
       }
   })
