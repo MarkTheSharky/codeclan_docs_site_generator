@@ -28,6 +28,6 @@ const { makeJSON } = require('./lib/makeFilesJSON');
 
 // Create JSON with files detail
 
-    makeJSON(classnotes, codeclan)
+    await makeJSON(classnotes, codeclan).then(res => console.log(res)).catch(res => console.log(res))
 
 })()
