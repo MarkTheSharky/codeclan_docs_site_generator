@@ -7,7 +7,7 @@ function createReadme(readmePath) {
         const readme = `${readmePath}/${file}/README.md`
 
         if (!fs.existsSync(readme) && fs.statSync(`${readmePath}/${file}`).isDirectory()) {
-            fs.writeFileSync(readme, '')
+            fs.writeFileSync(readme, 'Please select a day from the sidebar.')
         }
     })
 

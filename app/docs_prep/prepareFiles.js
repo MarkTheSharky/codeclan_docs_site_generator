@@ -11,17 +11,18 @@ const { createReadme } = require('./lib/createReadme');
     const classnotes = path.resolve('../../classnotes')
     const codeclan = path.resolve('../docs/codeclan')
 
+// Action steps to handle classnotes folder
 
     // handleClassnotes(classnotes)
 
 // Copy lessons to Vuepress Docs
 
-    copyLessonFiles(classnotes, codeclan)
+    // copyLessonFiles(classnotes, codeclan)
 
     // console.log('Copied Lesson files to /app/docs/codeclan');
 
 // Create empty Readme.md files in week folders
 
-    // createReadme('app/docs/codeclan')
+    createReadme(codeclan)
 
 })()
