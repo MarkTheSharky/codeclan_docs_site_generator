@@ -1,3 +1,5 @@
+const path = require('path')
+
 const { defaultTheme } = require('vuepress')
 const { searchPlugin } = require('@vuepress/plugin-search')
 const { copyCodePlugin } = require("vuepress-plugin-copy-code2");
@@ -10,6 +12,9 @@ module.exports = {
     // site config
   lang: 'en-US',
   title: 'Course Notes',
+  alias: {
+    '@root': path.join(__dirname, '..', '..', '..')
+  },
 
   // theme and its config
   theme: defaultTheme({
