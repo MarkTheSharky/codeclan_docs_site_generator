@@ -55,12 +55,14 @@ async function makeJSON(filepath, codeclanFolder) {
 
     const jsonFilePath = path.join(__dirname, '..', 'data', 'files.json')
 
-    return new Promise((resolve, reject) => {
+    return new Promise(resolve => {
         if (!fs.existsSync(jsonFilePath)) {
             fs.writeFileSync(jsonFilePath, JSON.stringify(fileList, null, 4))
-            resolve('Files JSON written successfully')
+            console.log('Files JSON written successfully', );
+            resolve(fileList)
         } else {
-            reject('ERROR: files.JSON already exists')
+            console.log('ERROR: files.JSON already exists, passing new object anyway');
+            resolve(fileList)
         }
     })
 }
