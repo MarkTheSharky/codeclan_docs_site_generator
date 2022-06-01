@@ -16,15 +16,15 @@ function copyLessonFiles(filepath, codeclanFolder) {
       // Handle if a file
       if (stat.isFile() && file.endsWith('.md') && file.toLowerCase() !== 'readme.md') {
 
-          const dirWeekDay = filepath.match(/(?<=classnotes)(\/.+?\/.+?\/)|(?<=classnotes)(\/.+)/gi)[0]
-          const destinationDir = path.resolve(`${codeclanFolder}/${dirWeekDay}/`)
+          const dirWeekDay = filepath.match(/(?<=classnotes\/.+?)(\/.+?\/.+?\/)|(?<=classnotes\/.+?)(\/.+)/gi)[0]
+          const destinationDir = path.join(codeclanFolder, dirWeekDay)
 
           if (!fs.existsSync(destinationDir)) {
               fs.mkdirSync(destinationDir, { recursive: true })
           }
 
-          const fileSrc = path.join(`${filepath}/${file}`)
-          const fileDest = path.resolve(`${destinationDir}/${file}`)
+          const fileSrc = path.join(filepath, file)
+          const fileDest = path.join(destinationDir, file)
 
           if (!fs.existsSync(fileDest)) {
               fs.copyFileSync(fileSrc, fileDest, fs.constants.COPYFILE_EXCL)

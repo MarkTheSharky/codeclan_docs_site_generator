@@ -21,8 +21,8 @@ async function makeFileObject(filepath, codeclanFolder) {
         // Handle if a file
         if (stat.isFile() && file.endsWith('.md') && file.toLowerCase() !== 'readme.md') {
 
-            const dirWeekDay = filepath.match(/(?<=classnotes)(\/.+?\/.+?\/)|(?<=classnotes)(\/.+)/gi)[0]
-            const copiedFileLocation = path.resolve(`${codeclanFolder}/${dirWeekDay}/${file}`)
+            const dirWeekDay = filepath.match(/(?<=classnotes\/.+?)(\/.+?\/.+?\/)|(?<=classnotes\/.+?)(\/.+)/gi)[0]
+            const copiedFileLocation = path.join(codeclanFolder, dirWeekDay, file)
 
             if (fileList[copiedFileLocation.match(/app\/docs\/codeclan\/.*/gi)]) {
                 console.log('Duplicate file name warning: ', file)
@@ -45,25 +45,19 @@ async function makeFileObject(filepath, codeclanFolder) {
 
 async function makeJSON(filepath, codeclanFolder) {
 
-    let json = false
-
     makeFileObject(filepath, codeclanFolder)
 
     for (const file in fileList) {
-        const path = filepath.replace(/classnotes/, file)
+        const path = filepath.replace(/classnotes.*/, file)
         const title = await getTitle(path)
-        fileList[file].title = title.replace(/#{1,}\s+/gi, '').replace(/(^|\s)[a-z]/g,function(f){return f.toUpperCase()})
+        fileList[file].title = title.replace(/#{1,}\s+/gi, '').replace(/(^|\s)[a-z]/g, function(f) {return f.toUpperCase()})
     }
 
-    const jsonFile = path.resolve('./data/files.json')
+    const jsonFilePath = path.join(__dirname, '..', 'data', 'files.json')
 
-    if (!fs.existsSync(jsonFile)) {
-        fs.writeFileSync(jsonFile, JSON.stringify(fileList, null, 4))
-        json = true
-    }
-
-    return new Promise((resolve, reject) => {   // This probably shouldn't be a promise
-        if (json === true) {
+    return new Promise((resolve, reject) => {
+        if (!fs.existsSync(jsonFilePath)) {
+            fs.writeFileSync(jsonFilePath, JSON.stringify(fileList, null, 4))
             resolve('Files JSON written successfully')
         } else {
             reject('ERROR: files.JSON already exists')
