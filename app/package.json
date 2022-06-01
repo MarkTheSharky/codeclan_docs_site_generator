@@ -6,6 +6,7 @@
   "author": "Mark Burns <77061384+MarkTheSharky@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
+    "node:dev": "node docs_prep/prepareFiles.js",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
