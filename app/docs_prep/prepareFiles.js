@@ -2,23 +2,24 @@ const fs = require('fs')
 const path = require('path')
 
 const { copyLessonFiles } = require('./lib/copyLessons');
-const { handleClassnotes } = require('./lib/handleClassnotesFolder');
+const { removeGitFolder } = require('./lib/removeGitFolder');
 const { createReadme } = require('./lib/createReadme');
 const { makeJSON } = require('./lib/makeFilesJSON');
 
 
 (async function prepareFiles() {
 
-    const classnotes = path.resolve('../../classnotes')
-    const codeclan = path.resolve('../docs/codeclan')
+    const classnotes = path.join(__dirname, '..', '..', 'classnotes')
+    const codeclan = path.join(__dirname, '..', 'docs', 'codeclan')
+    const cohort = path.join(classnotes, fs.readdirSync(classnotes).filter(file => file.charAt(0) !== '.')[0])
 
 // Action steps to handle classnotes folder
 
-    // handleClassnotes(classnotes)
+    // removeGitFolder(cohort)
 
 // Copy lessons to Vuepress Docs
 
-    // copyLessonFiles(classnotes, codeclan)
+    // copyLessonFiles(cohort, codeclan)
 
     // console.log('Copied Lesson files to /app/docs/codeclan');
 
@@ -28,6 +29,6 @@ const { makeJSON } = require('./lib/makeFilesJSON');
 
 // Create JSON with files detail
 
-    await makeJSON(classnotes, codeclan).then(res => console.log(res)).catch(res => console.log(res))
+    await makeJSON(cohort, codeclan).then(res => console.log(res)).catch(res => console.log(res))
 
 })()
