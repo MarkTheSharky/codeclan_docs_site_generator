@@ -29,11 +29,4 @@ async function getTitle(file) {
   })
 }
 
-// async function getTitle(file) {
-
-//   const done = await Promise.resolve(setTitle(file))
-//   console.log(done);
-// }
-
-
 module.exports = { getTitle }
