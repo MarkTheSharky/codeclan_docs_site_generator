@@ -5,6 +5,7 @@ const { copyLessonFiles } = require('./lib/copyLessons');
 const { removeGitFolder } = require('./lib/removeGitFolder');
 const { createReadme } = require('./lib/createReadme');
 const { makeJSON } = require('./lib/makeFilesJSON');
+const { editMarkdownFiles } = require('./lib/markdownEditing');
 
 
 (async function prepareFiles() {
@@ -13,22 +14,30 @@ const { makeJSON } = require('./lib/makeFilesJSON');
     const codeclan = path.join(__dirname, '..', 'docs', 'codeclan')
     const cohort = path.join(classnotes, fs.readdirSync(classnotes).filter(file => file.charAt(0) !== '.')[0])
 
-// Action steps to handle classnotes folder
+// Git clone class notes
 
-    // removeGitFolder(cohort)
+    // To be implemented...
 
-// Copy lessons to Vuepress Docs
+// // Action steps to handle classnotes folder
 
-    // copyLessonFiles(cohort, codeclan)
+    removeGitFolder(cohort)
 
-    // console.log('Copied Lesson files to /app/docs/codeclan');
+// // Copy lessons to Vuepress Docs
 
-// Create empty Readme.md files in week folders
+    copyLessonFiles(cohort, codeclan)
 
-    // createReadme(codeclan)
+    console.log('Copied Lesson files to /app/docs/codeclan');
+
+// // Create empty Readme.md files in week folders
+
+    createReadme(codeclan)
 
 // Create JSON with files detail
 
-    await makeJSON(cohort, codeclan).then(res => console.log(res)).catch(res => console.log(res))
+    const filesJson = await makeJSON(cohort, codeclan)
+
+// Edit bad/incompatible syntax in lessons + fix image links to point back to correct folder
+
+    editMarkdownFiles(filesJson)
 
 })()
