@@ -3,6 +3,7 @@ const replace = require('replace-in-file')
 const path = require('path')
 
 const { keyArray } = require('./getJsonKeys')
+const { fileSpecificFrom, fileSpecificTo } = require('./markdownEditingOptions')
 
 
 function editMarkdownFiles(obj) {
@@ -14,32 +15,18 @@ function editMarkdownFiles(obj) {
 		const originalFolder = obj[objKey].originalFolder
 		const linkValid = link.startsWith('@root')
 
-		if (linkValid) {
-			return match
-		} else {
-			return `![${altText}](${path.join('@root', originalFolder, imgLink)})`
+		if (/<(img) src=["|'](.+?)["|'].*/ig.test(match)) {	// Confirm result is HTML img format
+			return `![${imgLink.match(/(?<=\/).*(?=\.)/ig)}](${path.join('@root', originalFolder, imgLink)})`;
 		}
-	}
 
-	const from = (file) => {
-		switch (file.match(/app\/docs\/codeclan\/.*/gi)[0]) {
-			case 'app/docs/codeclan/week_11/day_2/arrays_and_arraylists.md':
-				return /(?<=So )ArrayList<Integer>(?= would)/i
-			// case
-			default:
-				return /[]/
-		}	
-	}
-
-	const to = (match) => {
-		switch (match) {
-			case 'ArrayList<Integer>':
-				return '`ArrayList<Integer>`'
-			// case
-			default:
-				console.log('Error in "to" callback, default called and match copied back');
+		
+		if (/!\[([^)]+|)\]\(([^)]+)\)/g.test(match)) {	// Confirm result is Markdown image format
+			if (linkValid) {
 				return match
-		}	
+			} else {
+				return `![${altText}](${path.join('@root', originalFolder, imgLink)})`
+			}
+		}
 	}
 
 	// Add any changes to markdown files below. Numbered keys are used for readability between the from/to values.
@@ -52,7 +39,8 @@ function editMarkdownFiles(obj) {
 					2: /(?<!`){{ ... }}(?!`)/g,
 					3: /<%/g,
 					4: /!\[([^)]+|)\]\(([^)]+)\)/g,
-					5: from
+					5: /<(img) src=["|'](.+?)["|'].*/ig,
+					6: fileSpecificFrom			// See markdownEditingOption.js
 					}
 
 	const toObj = {
@@ -60,30 +48,30 @@ function editMarkdownFiles(obj) {
 					2: '`{{ ... }}`',
 					3: '&lt;%',
 					4: imageLinkFix,
-					5: to,
+					5: imageLinkFix,
+					6: fileSpecificTo,			// See markdownEditingOption.js
 				}
 
 
 	const options = {
-		dry: true,			/////////////////////////// Disable to run!!!!!!!
+		// dry: true,			/////////////////////////// Disable to run!!!!!!!
 		files: keyArray(obj),
 		from: Object.values(fromObj),
 		to: Object.values(toObj),
 		countMatches: true,
 	}
 
-function makeChangedFile(results) {
-	const changedFiles = results
-			.filter(result => result.hasChanged)
-			.map(result => result.file);
-	console.log(changedFiles);
-}
+	function makeChangedFile(results) {
+		const changedFiles = results
+				.filter(result => result.hasChanged)
+				.map(result => result.file);
+		console.log('Changed Files:', changedFiles);
+	}
 
 	replace(options)
 		.then(changedFiles => {
 			makeChangedFile(changedFiles)
 			console.log('Completed files change');
-			// console.log(changesFiles);
 		})
 		.catch(error => {
 			console.error('Error occurred:', error);
