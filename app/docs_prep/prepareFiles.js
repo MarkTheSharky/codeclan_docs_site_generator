@@ -36,7 +36,7 @@ const { editMarkdownFiles } = require('./lib/markdownEditing');
 
     const filesJson = await makeJSON(cohort, codeclan)
 
-// Edit bad/incompatible syntax in lessons + fix image links to point back to correct folder
+// Edit incompatible syntax in lessons + fix image links to point back to correct folder
 
     editMarkdownFiles(filesJson)
 
