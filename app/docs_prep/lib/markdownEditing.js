@@ -19,7 +19,7 @@ function editMarkdownFiles(obj) {
 			return `![${imgLink.match(/(?<=\/).*(?=\.)/ig)}](${path.join('@root', originalFolder, imgLink)})`;
 		}
 
-		
+
 		if (/!\[([^)]+|)\]\(([^)]+)\)/g.test(match)) {	// Confirm result is Markdown image format
 			if (linkValid) {
 				return match
@@ -71,7 +71,7 @@ function editMarkdownFiles(obj) {
 	replace(options)
 		.then(changedFiles => {
 			makeChangedFile(changedFiles)
-			console.log('Completed files change');
+			console.log('Completed file changes');
 		})
 		.catch(error => {
 			console.error('Error occurred:', error);

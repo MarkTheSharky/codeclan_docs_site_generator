@@ -18,17 +18,17 @@ const { editMarkdownFiles } = require('./lib/markdownEditing');
 
     // To be implemented...
 
-// // Action steps to handle classnotes folder
+    // Remove .git folder from cloned location to avoid an accidental push
 
     removeGitFolder(cohort)
 
-// // Copy lessons to Vuepress Docs
+// Copy lessons to Vuepress Docs
 
     copyLessonFiles(cohort, codeclan)
 
     console.log('Copied Lesson files to /app/docs/codeclan');
 
-// // Create empty Readme.md files in week folders
+// Create Readme.md files in week folders
 
     createReadme(codeclan)
 
