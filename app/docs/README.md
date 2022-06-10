@@ -10,7 +10,7 @@ actions:
     link: /codeclan/
     type: primary
 footerHtml: true
-footer: Made by Codeclan alumni Mark Burns
+footer: Configured by alumni Mark Burns
         <br>
         <br>
         <a href='https://github.com/MarkTheSharky'><img src='github_icon.svg' width='30' height='30'/></a>
