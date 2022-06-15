@@ -6,12 +6,15 @@
   "author": "Mark Burns <77061384+MarkTheSharky@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
+    "test": "jest",
     "node:dev": "node docs_prep/prepareFiles.js",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
     "@vuepress/plugin-search": "^2.0.0-beta.45",
+    "jest": "^28.1.1",
+    "node-fetch": "^3.2.6",
     "replace-in-file": "^6.3.2",
     "vuepress": "^2.0.0-beta.45",
     "vuepress-plugin-copy-code2": "^2.0.0-beta.64"
