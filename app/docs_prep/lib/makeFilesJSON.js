@@ -33,6 +33,7 @@ async function makeFileObject(filepath, codeclanFolder) {
                     'filename': file,
                     'originalFolder': filepath.match(/classnotes.*/gi)[0],
                     'title': null,
+                    'url': `${copiedFileLocation.match(/codeclan\/.*\./gi)[0]}html`,
                     'start_code': null,
                     'end_code': null,
                     // 'youtube_link': ''
@@ -56,14 +57,14 @@ async function makeJSON(filepath, codeclanFolder) {
     const jsonFilePath = path.join(__dirname, '..', 'data', 'files.json')
 
     return new Promise(resolve => {
-        if (!fs.existsSync(jsonFilePath)) {
+        // if (!fs.existsSync(jsonFilePath)) {
             fs.writeFileSync(jsonFilePath, JSON.stringify(fileList, null, 4))
             console.log('Files JSON written successfully', );
             resolve(fileList)
-        } else {
-            console.log('ERROR: files.JSON already exists, passing new object anyway');
-            resolve(fileList)
-        }
+        // } else {
+        //     console.log('ERROR: files.JSON already exists, passing new object anyway');
+        //     resolve(fileList)
+        // }
     })
 }
 
