@@ -5,7 +5,7 @@ const { viteBundler } = require('@vuepress/bundler-vite')
 const config = require('../../docs/.vuepress/config')
 
 
-const dev = async () => {
+const launchDevServer = async () => {
     const app = createDevApp({
       ...config,
       source: 'docs',
@@ -47,4 +47,4 @@ const dev = async () => {
     await app.pluginApi.hooks.onWatched.process(app, watchers, restart)
   }
 
-module.exports = { dev }
+module.exports = { launchDevServer }
