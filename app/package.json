@@ -14,7 +14,7 @@
   "devDependencies": {
     "@vuepress/plugin-search": "^2.0.0-beta.45",
     "jest": "^28.1.1",
-    "node-fetch": "^3.2.6",
+    "node-fetch": "2.6.7",
     "replace-in-file": "^6.3.2",
     "vuepress": "^2.0.0-beta.45",
     "vuepress-plugin-copy-code2": "^2.0.0-beta.64"
