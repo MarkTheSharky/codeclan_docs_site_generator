@@ -8,3 +8,5 @@ app/docs/codeclan/*
 !classnotes/.gitkeep
 files.json
 /README.md
+/app/docs_prep/data/*
+!/app/docs_prep/data/.gitkeep
