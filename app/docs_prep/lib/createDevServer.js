@@ -1,4 +1,5 @@
 const path = require('path')
+const chokidar = require("chokidar");
 
 const { createDevApp } = require('vuepress')
 const { viteBundler } = require('@vuepress/bundler-vite')
@@ -23,6 +24,7 @@ const launchDevServer = async () => {
 
     // initialize and prepare
     await app.init()
+    // console.log(app.pages);
 
     await app.prepare()
 
@@ -32,19 +34,29 @@ const launchDevServer = async () => {
     // set up file watchers
     const watchers = []
   
-    // restart dev server
-    const restart = async () => {
+    // shutdown dev server
+    const shutdown = async () => {
       await Promise.all([
         // close all watchers
         ...watchers.map((item) => item.close()),
         // close current dev server
-        closeDevServer(),
+        closeDevServer()
       ])
-      await dev()
     }
-  
+
+    // Set up watcher
+    const watchPath = 'app/docs_prep/data/fileErrors.txt'
+
+    const fileWatcher = chokidar.watch(watchPath, {cwd: path.join(__dirname, '..', '..', '..')})
+      .on('change', (path) => {
+        console.log('Shutting down server')
+        shutdown()
+      })
+
+    watchers.push(fileWatcher)
+
     // process onWatched hook
-    await app.pluginApi.hooks.onWatched.process(app, watchers, restart)
+    await app.pluginApi.hooks.onWatched.process(app, watchers, shutdown)
   }
 
 module.exports = { launchDevServer }
