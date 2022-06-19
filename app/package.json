@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "@vuepress/plugin-search": "^2.0.0-beta.45",
+    "chokidar": "^3.5.3",
     "jest": "^28.1.1",
     "node-fetch": "2.6.7",
     "replace-in-file": "^6.3.2",
