@@ -52,6 +52,10 @@ const launchDevServer = async () => {
         console.log('Shutting down server')
         shutdown()
       })
+      .on('add', (path) => {
+        console.log('Shutting down server')
+        shutdown()
+      })
 
     watchers.push(fileWatcher)
 
