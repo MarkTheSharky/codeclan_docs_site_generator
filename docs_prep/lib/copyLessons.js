@@ -4,33 +4,37 @@ const path = require('path')
 
 function copyLessonFiles(filepath, codeclanFolder) {
 
-  fs.readdirSync(filepath).forEach(file => {
+    if (!fs.existsSync(codeclanFolder)) {
+        fs.mkdirSync(codeclanFolder)
+    }
 
-      const stat = fs.statSync(`${filepath}/${file}`)
+    fs.readdirSync(filepath).forEach(file => {
 
-      // Handle if directory
-      if (stat.isDirectory()) {
-          copyLessonFiles(`${filepath}/${file}`, codeclanFolder)
-      }
+        const stat = fs.statSync(`${filepath}/${file}`)
 
-      // Handle if a file
-      if (stat.isFile() && file.endsWith('.md') && file.toLowerCase() !== 'readme.md') {
+        // Handle if directory
+        if (stat.isDirectory()) {
+            copyLessonFiles(`${filepath}/${file}`, codeclanFolder)
+        }
 
-          const dirWeekDay = filepath.match(/(?<=classnotes\/.+?)(\/.+?\/.+?\/)|(?<=classnotes\/.+?)(\/.+)/gi)[0]
-          const destinationDir = path.join(codeclanFolder, dirWeekDay)
+        // Handle if a file
+        if (stat.isFile() && file.endsWith('.md') && file.toLowerCase() !== 'readme.md') {
 
-          if (!fs.existsSync(destinationDir)) {
-              fs.mkdirSync(destinationDir, { recursive: true })
-          }
+            const dirWeekDay = filepath.match(/(?<=classnotes\/.+?)(\/.+?\/.+?\/)|(?<=classnotes\/.+?)(\/.+)/gi)[0]
+            const destinationDir = path.join(codeclanFolder, dirWeekDay)
 
-          const fileSrc = path.join(filepath, file)
-          const fileDest = path.join(destinationDir, file)
+            if (!fs.existsSync(destinationDir)) {
+                fs.mkdirSync(destinationDir, { recursive: true })
+            }
 
-          if (!fs.existsSync(fileDest)) {
-              fs.copyFileSync(fileSrc, fileDest, fs.constants.COPYFILE_EXCL)
-          }
-      }
-  })
+            const fileSrc = path.join(filepath, file)
+            const fileDest = path.join(destinationDir, file)
+
+            if (!fs.existsSync(fileDest)) {
+                fs.copyFileSync(fileSrc, fileDest, fs.constants.COPYFILE_EXCL)
+            }
+        }
+    })
 }
 
 module.exports = { copyLessonFiles }

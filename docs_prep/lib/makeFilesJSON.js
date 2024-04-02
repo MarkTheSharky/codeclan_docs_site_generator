@@ -45,7 +45,7 @@ async function makeFileObject(filepath, codeclanFolder) {
 
 async function makeJSON(filepath, codeclanFolder) {
 
-    makeFileObject(filepath, codeclanFolder)
+    await makeFileObject(filepath, codeclanFolder)
 
     for (const file in fileList) {
         const path = filepath.replace(/classnotes.*/, file)
