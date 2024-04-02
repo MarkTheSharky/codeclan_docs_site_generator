@@ -1,5 +1,5 @@
 const fs = require("fs");
-const formatFolderName = require('./utilities/formatFolderName')
+const formatFolderName = require('./formatFolderName')
 
 const readRoot = (path) => {
 

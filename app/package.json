@@ -2,19 +2,17 @@
   "name": "vuepress_codeclan_docs",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "repository": "git@github.com:MarkTheSharky/codeclan_vuepress_docs.git",
   "author": "Mark Burns <77061384+MarkTheSharky@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
     "node:dev": "node docs_prep/prepareFiles.js",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "@vuepress/plugin-search": "^2.0.0-beta.45",
-    "replace-in-file": "^6.3.2",
-    "vuepress": "^2.0.0-beta.45",
-    "vuepress-plugin-copy-code2": "^2.0.0-beta.64"
-  },
-  "dependencies": {}
+    "vitepress": "^1.0.2"
+  }
 }
