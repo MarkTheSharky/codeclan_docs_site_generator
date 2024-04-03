@@ -9,6 +9,7 @@ const { fileSpecificFrom, fileSpecificTo } = require('./markdownEditingOptions')
 function editMarkdownFiles(obj) {
 
 	const imageLinkFix = (match, altText, link, ...args) => {
+		console.log('running');
 
 		const imgLink = link.match(/im.+/ig)[0];
 		const objKey = args.pop().match(/app\/docs\/codeclan\/.*/gi)[0]
@@ -69,7 +70,7 @@ function editMarkdownFiles(obj) {
 	}
 
 	replace(options)
-		.then(changedFiles => {
+		.then((changedFiles) => {
 			makeChangedFile(changedFiles)
 			console.log('Completed file changes');
 		})
