@@ -3,9 +3,14 @@
 layout: home
 
 hero:
-  name: "Codeclan"
-  text: "All lessons from Cohort E46 - Jan 2021"
-  tagline: My great project tagline
+  name: Codeclan
+  text: Cohort E46
+  tagline: January - April 2021
+  image: 
+    {
+      light: '/.vitepress/public/codeclan_logo_lighttheme.png',
+      dark: '/.vitepress/public/codeclan_logo_darktheme.png'
+    }
   actions:
     - theme: brand
       text: Markdown Examples
@@ -15,11 +20,46 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Week 1
+    details: null
+    link: http://localhost:5173/codeclan/week_01/
+  - title: Week 2
+    details: null
+    link: http://localhost:5173/codeclan/week_02/
+  - title: Week 3
+    details: null
+    link: http://localhost:5173/codeclan/week_03/
+  - title: Week 4
+    details: null
+    link: http://localhost:5173/codeclan/week_04/
+  - title: Week 5
+    details: null
+    link: http://localhost:5173/codeclan/week_05/
+  - title: Week 6
+    details: null
+    link: http://localhost:5173/codeclan/week_06/
+  - title: Week 7
+    details: null
+    link: http://localhost:5173/codeclan/week_07/
+  - title: Week 8
+    details: null
+    link: http://localhost:5173/codeclan/week_08/
+  - title: Week 9
+    details: null
+    link: http://localhost:5173/codeclan/week_09/
+  - title: Week 10
+    details: null
+    link: http://localhost:5173/codeclan/week_10/
+  - title: Week 11
+    details: null
+    link: http://localhost:5173/codeclan/week_11/
+  - title: Week 12
+    details: null
+    link: http://localhost:5173/codeclan/week_12/
+  - title: Week 13
+    details: null
+    link: http://localhost:5173/codeclan/week_13/
+  - title: Week 14
+    details: null
+    link: http://localhost:5173/codeclan/week_14/
 ---
-
