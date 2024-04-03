@@ -3,7 +3,7 @@ const path = require('path')
 
 const { removeGitFolder } = require('./lib/removeGitFolder');
 const { copyLessonFiles } = require('./lib/copyLessons');
-const { createReadme } = require('./lib/createReadme');
+const { createIndex } = require('./lib/createIndex');
 const { makeJSON } = require('./lib/makeFilesJSON');
 // const { editMarkdownFiles } = require('./lib/markdownEditing');
 
@@ -20,21 +20,21 @@ const { makeJSON } = require('./lib/makeFilesJSON');
 
 // Remove .git folder from cloned location to avoid an accidental push
 
-    removeGitFolder(cohortClassnotesFolder)
+//     removeGitFolder(cohortClassnotesFolder)
 
-// Copy lessons to Vuepress Docs
+// // Copy lessons to Vuepress Docs
 
-    copyLessonFiles(cohortClassnotesFolder, codeclanFolder)
+//     copyLessonFiles(cohortClassnotesFolder, codeclanFolder)
 
-    console.log('Copied Lesson files to /app/docs/codeclanFolder');
+//     console.log('Copied Lesson files to /app/docs/codeclanFolder');
 
-// Create Readme.md files in week folders
+// Create Index.md files in week folders
 
-    createReadme(codeclanFolder)
+    createIndex(codeclanFolder)
 
 // Create JSON with files detail
 
-    const filesJson = await makeJSON(cohortClassnotesFolder, codeclanFolder)
+    // const filesJson = await makeJSON(cohortClassnotesFolder, codeclanFolder)
 
 // Edit incompatible syntax in lessons + fix image links to point back to correct folder
 
