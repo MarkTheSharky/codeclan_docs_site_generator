@@ -1,14 +1,16 @@
 export function formatFolderName(folder) {
 
-  let title = folder
+  let title = folder;
 
-  if (folder[folder.length-2] == 0) {
+
+  if (folder.endsWith('.md')) {
+    title = folder.slice(0, -3)
+  } else if (folder[folder.length-2] == 0) {
     title = folder.replace(/_0/g, ' ')
-  } else {
-    title = folder.replace(/_/g, ' ')
   }
 
-  title = title.replace(/(^|\s)[a-z]/g,function(f){return f.toUpperCase();});
+  title = title.replace(/_/g, ' ')
+  title = title.replace(/(^|\s)[a-z]/g,(m) => m.toUpperCase());
 
   return title
 

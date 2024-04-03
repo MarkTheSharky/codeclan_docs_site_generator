@@ -1,70 +1,75 @@
-const fs = require("fs");
-const formatFolderName = require('./formatFolderName')
+import fs from "fs"
+import { formatFolderName } from "./formatFolderName"
 
 const readRoot = (path) => {
 
-    const rootFolders = []
+  const rootFolders = []
 
-    fs.readdirSync(path).forEach(folder => {
+  fs.readdirSync(path).forEach(folder => {
 
-      const stat = fs.statSync(`${path}/${folder}`)
+    const stat = fs.statSync(`${path}/${folder}`)
 
-      if (stat.isDirectory()) {
-        rootFolders.push(`${folder}`)
-      }
+    if (stat.isDirectory()) {
+      rootFolders.push(`${folder}`)
+    }
 
-    })
+  })
 
-    return rootFolders
+  return rootFolders
 }
 
 
 const readDir = (path) => {
 
-    const fileArray = [];
+  const fileArray = [];
 
-    fs.readdirSync(path).forEach(file => {
+  fs.readdirSync(path).forEach(file => {
 
-      const stat = fs.statSync(`${path}/${file}`)
+    const filePath = `${path}/${file}`
+    const stat = fs.statSync(filePath)
 
-      if (`${path}/${file}` === `${path}/README.md`) {
-        return
-      }
+    // Check if file is named index.md and skip if true
+    if (filePath === `${path}/index.md`) {
+      return
+    }
 
+    // Handle if directory
+    if (stat.isDirectory()) {
+      // Object Template
       const fileInfo = {
         text: formatFolderName(file),
-        collapsible: false,
-        children: []
+        collapsed: false,
+        items: []
       }
+      fileInfo.items = readDir(filePath)
+      fileArray.push(fileInfo)
+    }
 
-      // Handle if directory
-      if (stat.isDirectory()) {
-        fileInfo.children = readDir(`${path}/${file}`)
-        fileArray.push(fileInfo)
+    // Handle if a file
+    if (stat.isFile()) {
+      
+      const newPath = path.substring(path.indexOf('/'))
+      const fileObject = {
+        text: formatFolderName(file),
+        link: `${newPath}/${file}`.slice(0, -3)
       }
+      fileArray.push(fileObject)
+      
+    }
+  })
 
-      // Handle if a file
-      if (stat.isFile()) {
-        const newPath = path.substring(path.indexOf('/'))
-        fileArray.push(`${newPath}/${file}`)
-      }
-    })
-
-    return fileArray;
+  return fileArray;
 }
 
-
-
-module.exports = function buildSidebar(path) {
+export function buildSidebar(path) {
 
   const sidebar = {}
   const rootFolders = readRoot(path)
 
   rootFolders.forEach(dir => {
     const sidebarArray = readDir(`${path}/${dir}`)
-    sidebarArray.unshift({"text": formatFolderName(dir)})
-    sidebar[`/codeclan/${dir}`] = sidebarArray
+    sidebar[`/codeclan/${dir}`] = [{ text: formatFolderName(dir), items: sidebarArray }]
   })
-  
+
   return sidebar
 }
