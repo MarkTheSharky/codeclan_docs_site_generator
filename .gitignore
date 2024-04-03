@@ -1,10 +1,12 @@
 node_modules
-.temp
-.cache
 .vscode
+
+app/docs/.vitepress/cache
+app/docs/.vitepress/dist
+
 app/docs/codeclan/*
-!app/docs/codeclan/.gitkeep
+
 /classnotes/*
-!classnotes/.gitkeep
+!classnotes/docs_prep
+
 files.json
-/README.md
