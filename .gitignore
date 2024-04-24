@@ -6,7 +6,4 @@ app/docs/.vitepress/dist
 
 app/docs/codeclan/*
 
-/classnotes/*
-!classnotes/docs_prep
-
 files.json
